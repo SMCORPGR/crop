@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Inventory</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Inventory</value>
+    </caseValues>
+    <quickActions>
+        <label><!-- New Adjustment --></label>
+        <name>DM_New_Adjustment</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Update Inventory --></label>
+        <name>DM_Update_Inventory</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- Crops that are harvested from farm operations and stored. --></description>
+        <label><!-- Harvest --></label>
+        <name>DM_Harvest</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Inputs that are applied to a field or production facility. --></description>
+        <label><!-- Inputs --></label>
+        <name>DM_Inputs</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Materials (seed, planting stock) that are planted in a field or production facility. --></description>
+        <label><!-- Material --></label>
+        <name>DM_Material</name>
+    </recordTypes>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

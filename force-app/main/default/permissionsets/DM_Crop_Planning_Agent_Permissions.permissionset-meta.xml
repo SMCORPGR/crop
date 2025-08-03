@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Allows custom permissions for Agentforce Agent : DM_Crop_Planning_Agent&apos;s agent user : dm_crop_planning_agent@00ddj000000rzyk.ext.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>DM_Crop_Planning_Agent Permissions</label>
+    <license>Einstein Agent</license>
+</PermissionSet>

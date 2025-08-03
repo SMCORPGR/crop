@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomHelpMenuSection xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customHelpMenuItems>
+        <linkUrl>https://velocity-dream-2485-dev-ed.scratch.lightning.force.com/lightning/app/digitalm__DM_Digital_Melon/o/digitalm__DM_Parcel1__c/new?navigationLocation=LIST_VIEW&amp;nooverride=1&amp;0.promptId=digitalm__DM_NewParcel</linkUrl>
+        <masterLabel>New Parcel</masterLabel>
+        <sortOrder>1</sortOrder>
+    </customHelpMenuItems>
+    <masterLabel>Digital Melon - Crop OSP</masterLabel>
+</CustomHelpMenuSection>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DM_Soil_Type__c</fullName>
+    <label>Soil Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Sandy</fullName>
+                <default>false</default>
+                <label>Sandy</label>
+            </value>
+            <value>
+                <fullName>Clay</fullName>
+                <default>false</default>
+                <label>Clay</label>
+            </value>
+            <value>
+                <fullName>Loamy</fullName>
+                <default>false</default>
+                <label>Loamy</label>
+            </value>
+            <value>
+                <fullName>Silty</fullName>
+                <default>false</default>
+                <label>Silty</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

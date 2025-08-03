@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DM_Lighting_Supplementation__c</fullName>
+    <label>Lighting Supplementation</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>None</fullName>
+                <default>true</default>
+                <label>None</label>
+            </value>
+            <value>
+                <fullName>LED</fullName>
+                <default>false</default>
+                <label>LED</label>
+            </value>
+            <value>
+                <fullName>Fluorescent</fullName>
+                <default>false</default>
+                <label>Fluorescent</label>
+            </value>
+            <value>
+                <fullName>HID</fullName>
+                <default>false</default>
+                <label>HID</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

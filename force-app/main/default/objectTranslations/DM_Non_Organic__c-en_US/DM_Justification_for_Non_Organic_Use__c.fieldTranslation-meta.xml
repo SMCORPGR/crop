@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Justification for Non-Organic Use --></label>
+    <name>DM_Justification_for_Non_Organic_Use__c</name>
+    <picklistValues>
+        <masterLabel>Germination or Quality Issues</masterLabel>
+        <translation><!-- Germination or Quality Issues --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Insufficient Supply</masterLabel>
+        <translation><!-- Insufficient Supply --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Late-Season Emergency</masterLabel>
+        <translation><!-- Late-Season Emergency --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not Commercially Available</masterLabel>
+        <translation><!-- Not Commercially Available --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Organic Equivalent Not Suitable for Certified System</masterLabel>
+        <translation><!-- Organic Equivalent Not Suitable for Certified System --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Region-Specific Adaptation</masterLabel>
+        <translation><!-- Region-Specific Adaptation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Specific Variety Not Available</masterLabel>
+        <translation><!-- Specific Variety Not Available --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

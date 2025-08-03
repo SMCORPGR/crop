@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Harvest</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Harvest</value>
+    </caseValues>
+    <recordTypes>
+        <label><!-- Yield --></label>
+        <name>DM_Yield</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Harvest Date must be after Planting Date --></errorMessage>
+        <name>Harvest_Date_before_Planting_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Storage Location is required if Intended Use is Future Sale from Inventory. --></errorMessage>
+        <name>Storage_Location_cannot_be_blank</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- DM_New_Harvest --></label>
+        <name>DM_New_Harvest</name>
+    </webLinks>
+</CustomObjectTranslation>

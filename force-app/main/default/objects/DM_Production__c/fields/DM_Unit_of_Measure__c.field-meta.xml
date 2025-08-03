@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DM_Unit_of_Measure__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE( DM_Material_Source__c , 
+&quot;Inventory&quot;, TEXT( DM_Material__r.DM_Quantity_Unit_of_Measure__c), 
+&quot;Production Site&quot;,  text(DM_On_Premises_Production__r.DM_Yield_Unit_of_Measure__c) ,
+&quot;Not Found&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Unit of Measure</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- System Type --></label>
+    <name>DM_System_Type__c</name>
+    <picklistValues>
+        <masterLabel>Drip</masterLabel>
+        <translation><!-- Drip --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Furrow</masterLabel>
+        <translation><!-- Furrow --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Overhead</masterLabel>
+        <translation><!-- Overhead --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sprinkler</masterLabel>
+        <translation><!-- Sprinkler --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

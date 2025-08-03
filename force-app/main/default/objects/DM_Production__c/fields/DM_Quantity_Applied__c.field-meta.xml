@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DM_Quantity_Applied__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>When an input material is used, it may be mixed or diluted to result in a different quantity applied. For instance, 1 gallon of concentrated pesticide may be diluted to 50 gallons of applied pesticide.</inlineHelpText>
+    <label>Quantity Applied</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Crop Type --></label>
+    <name>DM_Crop_Type__c</name>
+    <picklistValues>
+        <masterLabel>Cash Crop</masterLabel>
+        <translation><!-- Cash Crop --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cover Crop</masterLabel>
+        <translation><!-- Cover Crop --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cover Crop Incorporation</masterLabel>
+        <translation><!-- Cover Crop Incorporation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fallow</masterLabel>
+        <translation><!-- Fallow --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

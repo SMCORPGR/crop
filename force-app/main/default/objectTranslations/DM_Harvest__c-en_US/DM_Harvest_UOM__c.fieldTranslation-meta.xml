@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Harvest UOM --></label>
+    <name>DM_Harvest_UOM__c</name>
+    <picklistValues>
+        <masterLabel>Bushels</masterLabel>
+        <translation><!-- Bushels --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Count</masterLabel>
+        <translation><!-- Count --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kilograms</masterLabel>
+        <translation><!-- Kilograms --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pounds</masterLabel>
+        <translation><!-- Pounds --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tons</masterLabel>
+        <translation><!-- Tons --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

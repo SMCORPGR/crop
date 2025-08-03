@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DM_Pest_Control_Methods__c</fullName>
+    <label>Pest Control Methods</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Biological Control</fullName>
+                <default>false</default>
+                <label>Biological Control</label>
+            </value>
+            <value>
+                <fullName>Companion Planting</fullName>
+                <default>false</default>
+                <label>Companion Planting</label>
+            </value>
+            <value>
+                <fullName>Trap Crops</fullName>
+                <default>false</default>
+                <label>Trap Crops</label>
+            </value>
+            <value>
+                <fullName>Row Covers &amp; Netting</fullName>
+                <default>false</default>
+                <label>Row Covers &amp; Netting</label>
+            </value>
+            <value>
+                <fullName>Botanical Pesticides</fullName>
+                <default>false</default>
+                <label>Botanical Pesticides</label>
+            </value>
+            <value>
+                <fullName>Microbial Pesticides</fullName>
+                <default>false</default>
+                <label>Microbial Pesticides</label>
+            </value>
+            <value>
+                <fullName>Physical &amp; Mechanical Control</fullName>
+                <default>false</default>
+                <label>Physical &amp; Mechanical Control</label>
+            </value>
+            <value>
+                <fullName>Soil Solarization</fullName>
+                <default>false</default>
+                <label>Soil Solarization</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Crop Rotation Category --></label>
+    <name>DM_Crop_Rotation_Category__c</name>
+    <picklistValues>
+        <masterLabel>Brassicas</masterLabel>
+        <translation><!-- Brassicas --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Grains</masterLabel>
+        <translation><!-- Grains --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Leafy Greens</masterLabel>
+        <translation><!-- Leafy Greens --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Legumes</masterLabel>
+        <translation><!-- Legumes --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nightshades</masterLabel>
+        <translation><!-- Nightshades --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Root Crops</masterLabel>
+        <translation><!-- Root Crops --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

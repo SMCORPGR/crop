@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DM_Cover_Crops</fullName>
+    <active>true</active>
+    <description>Record crop acreage and location</description>
+    <label>Cover Crops</label>
+    <picklistValues>
+        <picklist>DM_Application_Method__c</picklist>
+        <values>
+            <fullName>Broadcast</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Drip Irrigation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Foliar Spray</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Soil Incorporation</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DM_Cleaning_Method__c</picklist>
+        <values>
+            <fullName>Air Blast</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manual Scrubbing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pressure Wash</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DM_Composting_Method__c</picklist>
+        <values>
+            <fullName>Anaerobic Composting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hot Composting %28Aerobic%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In-Vessel Composting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sheet Composting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trench Composting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vermicomposting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Windrow Composting</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DM_Crop_Rotation_Category__c</picklist>
+        <values>
+            <fullName>Brassicas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grains</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Leafy Greens</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Legumes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nightshades</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Root Crops</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DM_Crop_Stage__c</picklist>
+        <values>
+            <fullName>Germination</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maturing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Planned</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Production Complete</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DM_Disposition_Method__c</picklist>
+        <values>
+            <fullName>Grazing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Green Manure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mulch</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No-Till</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seed Propagation</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DM_Input_Type__c</picklist>
+        <values>
+            <fullName>Fertilizer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Herbicide</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mulch</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pesticide</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Soil Amendment</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DM_Irrigation_Frequency__c</picklist>
+        <values>
+            <fullName>As Needed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bi-Weekly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Daily</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Every Other Day</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Every Third Day</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Weekly</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DM_Irrigation_Method__c</picklist>
+        <values>
+            <fullName>Basin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Center Pivot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Drip</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Flood</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Furrow</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hydroponic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rain Water Harvesting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sprinkler</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Subsurface Drip</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DM_Material_Source__c</picklist>
+        <values>
+            <fullName>Inventory</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Production Site</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DM_Packing_Activity__c</picklist>
+        <values>
+            <fullName>Bagging</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Boxing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Processing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trimming</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Washing</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DM_Pest_Control_Methods__c</picklist>
+        <values>
+            <fullName>Biological Control</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Botanical Pesticides</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Companion Planting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Microbial Pesticides</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Physical %26 Mechanical Control</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Row Covers %26 Netting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Soil Solarization</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trap Crops</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DM_Planting_Method__c</picklist>
+        <values>
+            <fullName>Broadcast Seeding</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Direct Seeding</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Drill Seeding</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hydroponic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intercropping</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mulch Planting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No-Till Planting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Raised Bed Planting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transplanting</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DM_Production_Activity__c</picklist>
+        <values>
+            <fullName>Compost Production</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Equipment Cleaning</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Irrigation Inspection</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Packing %2F Processing</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DM_Production_Status__c</picklist>
+        <values>
+            <fullName>Complete</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Started</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DM_Production_Type_Inputs__c</picklist>
+        <values>
+            <fullName>Field</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Production Site</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DM_Production_Type__c</picklist>
+        <values>
+            <fullName>Field</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Production Site</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DM_Turning_Frequency__c</picklist>
+        <values>
+            <fullName>As Needed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Daily</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Weekly</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DM_Weed_Control_Methods__c</picklist>
+        <values>
+            <fullName>Flame Weeding</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grazing Animals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hand Weeding %26 Hoeing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mulching</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vinegar %26 Natural Herbicides</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DM_Yield_Unit_of_Measure__c</picklist>
+        <values>
+            <fullName>Bushels</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Count</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kilograms</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pounds</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Pest Control Methods --></label>
+    <name>DM_Pest_Control_Methods__c</name>
+    <picklistValues>
+        <masterLabel>Biological Control</masterLabel>
+        <translation><!-- Biological Control --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Botanical Pesticides</masterLabel>
+        <translation><!-- Botanical Pesticides --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Companion Planting</masterLabel>
+        <translation><!-- Companion Planting --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Microbial Pesticides</masterLabel>
+        <translation><!-- Microbial Pesticides --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Physical &amp; Mechanical Control</masterLabel>
+        <translation><!-- Physical &amp; Mechanical Control --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Row Covers &amp; Netting</masterLabel>
+        <translation><!-- Row Covers &amp; Netting --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Soil Solarization</masterLabel>
+        <translation><!-- Soil Solarization --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trap Crops</masterLabel>
+        <translation><!-- Trap Crops --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

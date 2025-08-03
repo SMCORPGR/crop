@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DM_Zone__c</fullName>
+    <label>Zone</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>In-Bed</fullName>
+                <default>true</default>
+                <label>In-Bed</label>
+            </value>
+            <value>
+                <fullName>Inter-row</fullName>
+                <default>false</default>
+                <label>Inter-row</label>
+            </value>
+            <value>
+                <fullName>Perimeter</fullName>
+                <default>false</default>
+                <label>Perimeter</label>
+            </value>
+            <value>
+                <fullName>Pollinator</fullName>
+                <default>false</default>
+                <label>Pollinator</label>
+            </value>
+            <value>
+                <fullName>Under Canopy/Vine</fullName>
+                <default>false</default>
+                <label>Under Canopy/Vine</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Acres_exceeds_the_size_of_Parcel</fullName>
+    <active>true</active>
+    <description>Total acres applied exceeds the total acres of the Parcel.</description>
+    <errorConditionFormula>or(DM_Total_Area_Applied_Acres__c &gt; DM_Field__r.DM_Total_Area__c,  DM_Total_Area_Planted_Acres__c &gt;  DM_Field__r.DM_Total_Area__c)</errorConditionFormula>
+    <errorMessage>Total acres exceeds the size of the Parcel.</errorMessage>
+</ValidationRule>

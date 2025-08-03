@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DM_Total_Quantity_Received__c</fullName>
+    <label>Total Quantity Received</label>
+    <summarizedField>DM_Shipment__c.DM_Quantity_Received__c</summarizedField>
+    <summaryForeignKey>DM_Shipment__c.DM_Material__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

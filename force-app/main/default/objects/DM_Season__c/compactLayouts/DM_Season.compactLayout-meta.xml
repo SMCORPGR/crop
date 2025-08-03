@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DM_Season</fullName>
+    <fields>Name</fields>
+    <fields>DM_Rotation_Plan__c</fields>
+    <fields>DM_Year__c</fields>
+    <fields>DM_Season_Indicator__c</fields>
+    <label>Season</label>
+</CompactLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Type --></label>
+    <name>DM_Type__c</name>
+    <picklistValues>
+        <masterLabel>Cash Crops</masterLabel>
+        <translation><!-- Cash Crops --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cover Crops</masterLabel>
+        <translation><!-- Cover Crops --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

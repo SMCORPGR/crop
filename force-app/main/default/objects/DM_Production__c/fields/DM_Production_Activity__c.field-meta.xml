@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DM_Production_Activity__c</fullName>
+    <label>Production Activity</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Buffer Zone Maintenance</fullName>
+                <default>false</default>
+                <label>Buffer Zone Maintenance</label>
+            </value>
+            <value>
+                <fullName>Compost Production</fullName>
+                <default>false</default>
+                <label>Compost Production</label>
+            </value>
+            <value>
+                <fullName>Compost Curing</fullName>
+                <default>false</default>
+                <label>Compost Curing</label>
+            </value>
+            <value>
+                <fullName>Cover Crop Termination</fullName>
+                <default>false</default>
+                <label>Cover Crop Termination</label>
+            </value>
+            <value>
+                <fullName>Equipment Cleaning</fullName>
+                <default>false</default>
+                <label>Equipment Cleaning</label>
+            </value>
+            <value>
+                <fullName>Irrigation Flushing</fullName>
+                <default>false</default>
+                <label>Irrigation Flushing</label>
+            </value>
+            <value>
+                <fullName>Irrigation Inspection</fullName>
+                <default>false</default>
+                <label>Irrigation Inspection</label>
+            </value>
+            <value>
+                <fullName>Packing / Processing</fullName>
+                <default>false</default>
+                <label>Packing / Processing</label>
+            </value>
+            <value>
+                <fullName>Raised Bed Formation</fullName>
+                <default>false</default>
+                <label>Raised Bed Formation</label>
+            </value>
+            <value>
+                <fullName>Soil Testing</fullName>
+                <default>false</default>
+                <label>Soil Testing</label>
+            </value>
+            <value>
+                <fullName>Thinning / Pruning</fullName>
+                <default>false</default>
+                <label>Thinning / Pruning</label>
+            </value>
+            <value>
+                <fullName>Tillage</fullName>
+                <default>false</default>
+                <label>Tillage</label>
+            </value>
+            <value>
+                <fullName>Trellising / Staking</fullName>
+                <default>false</default>
+                <label>Trellising / Staking</label>
+            </value>
+            <value>
+                <fullName>Water Quality Testing</fullName>
+                <default>false</default>
+                <label>Water Quality Testing</label>
+            </value>
+            <value>
+                <fullName>Weeding</fullName>
+                <default>false</default>
+                <label>Weeding</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DM_Quantity_Unit_of_Measure__c</fullName>
+    <label>Quantity Unit of Measure</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Gallons</fullName>
+                <default>false</default>
+                <label>Gallons</label>
+            </value>
+            <value>
+                <fullName>Cubic Yards</fullName>
+                <default>false</default>
+                <label>Cubic Yards</label>
+            </value>
+            <value>
+                <fullName>Pounds</fullName>
+                <default>false</default>
+                <label>Pounds</label>
+            </value>
+            <value>
+                <fullName>Tons</fullName>
+                <default>false</default>
+                <label>Tons</label>
+            </value>
+            <value>
+                <fullName>Kilograms</fullName>
+                <default>false</default>
+                <label>Kilograms</label>
+            </value>
+            <value>
+                <fullName>Bushels</fullName>
+                <default>false</default>
+                <label>Bushels</label>
+            </value>
+            <value>
+                <fullName>Liters</fullName>
+                <default>false</default>
+                <label>Liters</label>
+            </value>
+            <value>
+                <fullName>Count</fullName>
+                <default>false</default>
+                <label>Count</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

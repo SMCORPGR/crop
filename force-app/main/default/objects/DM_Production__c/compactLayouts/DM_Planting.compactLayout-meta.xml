@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DM_Planting</fullName>
+    <fields>DM_Crop_Variety__c</fields>
+    <fields>Name</fields>
+    <fields>DM_Planting_Date__c</fields>
+    <fields>DM_Field__c</fields>
+    <fields>DM_Production_Site__c</fields>
+    <fields>RecordTypeId</fields>
+    <label>Planting</label>
+</CompactLayout>

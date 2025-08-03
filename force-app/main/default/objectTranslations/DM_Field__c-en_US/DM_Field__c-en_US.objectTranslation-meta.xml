@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Field</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Fields</value>
+    </caseValues>
+    <layouts>
+        <layout>Field Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- New Activity --></label>
+        <name>DM_New_Activity</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- A specific area of a Parcel set aside to protect Production fields. --></description>
+        <label><!-- Buffer Zone --></label>
+        <name>DM_Buffer_Zone</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- A managed area of a Parcel for Production planting and inputs. --></description>
+        <label><!-- Production Field --></label>
+        <name>DM_Field</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

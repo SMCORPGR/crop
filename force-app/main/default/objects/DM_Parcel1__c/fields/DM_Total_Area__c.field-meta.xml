@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DM_Total_Area__c</fullName>
+    <label>Total Area (Acres)</label>
+    <summarizedField>DM_Field__c.DM_Total_Area__c</summarizedField>
+    <summaryFilterItems>
+        <field>DM_Field__c.DM_Active__c</field>
+        <operation>equals</operation>
+        <value>True</value>
+    </summaryFilterItems>
+    <summaryForeignKey>DM_Field__c.DM_Parcel__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

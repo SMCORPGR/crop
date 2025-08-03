@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Harvest</fullName>
+    <columns>NAME</columns>
+    <columns>DM_Production__c</columns>
+    <columns>DM_Harvest__c</columns>
+    <columns>DM_Remaining_Inventory__c</columns>
+    <columns>RECORDTYPE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>DM_Inventory__c.DM_Harvest</value>
+    </filters>
+    <label>Harvest</label>
+</ListView>

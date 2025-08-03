@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Composting Method --></label>
+    <name>DM_Composting_Method__c</name>
+    <picklistValues>
+        <masterLabel>Anaerobic Composting</masterLabel>
+        <translation><!-- Anaerobic Composting --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hot Composting (Aerobic)</masterLabel>
+        <translation><!-- Hot Composting (Aerobic) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>In-Vessel Composting</masterLabel>
+        <translation><!-- In-Vessel Composting --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sheet Composting</masterLabel>
+        <translation><!-- Sheet Composting --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trench Composting</masterLabel>
+        <translation><!-- Trench Composting --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vermicomposting</masterLabel>
+        <translation><!-- Vermicomposting --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Windrow Composting</masterLabel>
+        <translation><!-- Windrow Composting --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

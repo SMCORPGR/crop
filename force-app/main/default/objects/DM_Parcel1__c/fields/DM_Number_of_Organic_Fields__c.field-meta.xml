@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DM_Number_of_Organic_Fields__c</fullName>
+    <label>Number of Organic Fields</label>
+    <summaryFilterItems>
+        <field>DM_Field__c.DM_Active__c</field>
+        <operation>equals</operation>
+        <value>True</value>
+    </summaryFilterItems>
+    <summaryFilterItems>
+        <field>DM_Field__c.DM_Land_Use__c</field>
+        <operation>equals</operation>
+        <value>Certified Organic</value>
+    </summaryFilterItems>
+    <summaryForeignKey>DM_Field__c.DM_Parcel__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

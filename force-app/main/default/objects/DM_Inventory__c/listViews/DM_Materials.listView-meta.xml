@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DM_Materials</fullName>
+    <columns>NAME</columns>
+    <columns>DM_Material__c</columns>
+    <columns>DM_Material_UOM__c</columns>
+    <columns>DM_Remaining_Inventory__c</columns>
+    <columns>RECORDTYPE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>DM_Inventory__c.DM_Material</value>
+    </filters>
+    <label>Materials</label>
+</ListView>

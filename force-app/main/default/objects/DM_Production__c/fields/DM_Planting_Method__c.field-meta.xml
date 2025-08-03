@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DM_Planting_Method__c</fullName>
+    <label>Planting Method</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Direct Seeding</fullName>
+                <default>false</default>
+                <label>Direct Seeding</label>
+            </value>
+            <value>
+                <fullName>Transplanting</fullName>
+                <default>false</default>
+                <label>Transplanting</label>
+            </value>
+            <value>
+                <fullName>Broadcast Seeding</fullName>
+                <default>false</default>
+                <label>Broadcast Seeding</label>
+            </value>
+            <value>
+                <fullName>Drill Seeding</fullName>
+                <default>false</default>
+                <label>Drill Seeding</label>
+            </value>
+            <value>
+                <fullName>Raised Bed Planting</fullName>
+                <default>false</default>
+                <label>Raised Bed Planting</label>
+            </value>
+            <value>
+                <fullName>Intercropping</fullName>
+                <default>false</default>
+                <label>Intercropping</label>
+            </value>
+            <value>
+                <fullName>Mulch Planting</fullName>
+                <default>false</default>
+                <label>Mulch Planting</label>
+            </value>
+            <value>
+                <fullName>Hydroponic</fullName>
+                <default>false</default>
+                <label>Hydroponic</label>
+            </value>
+            <value>
+                <fullName>No-Till Planting</fullName>
+                <default>false</default>
+                <label>No-Till Planting</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

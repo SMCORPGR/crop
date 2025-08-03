@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DM_Propagation_Method__c</fullName>
+    <label>Propagation Method</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Seeds_Transplant</fullName>
+                <default>true</default>
+                <label>Seed - Transplant</label>
+            </value>
+            <value>
+                <fullName>Cuttings</fullName>
+                <default>false</default>
+                <label>Cuttings</label>
+            </value>
+            <value>
+                <fullName>Grafting</fullName>
+                <default>false</default>
+                <label>Grafting</label>
+            </value>
+            <value>
+                <fullName>Division</fullName>
+                <default>false</default>
+                <label>Division</label>
+            </value>
+            <value>
+                <fullName>Layering</fullName>
+                <default>false</default>
+                <label>Layering</label>
+            </value>
+            <value>
+                <fullName>Bulbs / Tubers</fullName>
+                <default>false</default>
+                <label>Bulbs / Tubers</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

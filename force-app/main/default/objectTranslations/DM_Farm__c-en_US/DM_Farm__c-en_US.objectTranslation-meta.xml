@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Farm</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Farms</value>
+    </caseValues>
+    <layouts>
+        <layout>Farm Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <description><!-- Default record type for a Farm record. --></description>
+        <label><!-- Farm --></label>
+        <name>DM_Farm</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>DM_Non_Organic__c</entityName>
+    <fieldName>DM_Approval_Status__c</fieldName>
+    <masterLabel>Non Organic Approval</masterLabel>
+    <recordTypeName>DM_Seed_Treatments</recordTypeName>
+</PathAssistant>

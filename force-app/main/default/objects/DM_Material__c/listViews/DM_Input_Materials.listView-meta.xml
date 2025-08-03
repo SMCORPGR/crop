@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DM_Input_Materials</fullName>
+    <columns>NAME</columns>
+    <columns>DM_Manufacturer__c</columns>
+    <columns>DM_Batch_Lot_Number__c</columns>
+    <columns>DM_Purchase_Date__c</columns>
+    <columns>DM_Vendor__c</columns>
+    <columns>DM_Received_in_Full__c</columns>
+    <columns>DM_Remaining_Inventory__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>DM_Material__c.DM_Inputs</value>
+    </filters>
+    <label>Input Materials</label>
+</ListView>

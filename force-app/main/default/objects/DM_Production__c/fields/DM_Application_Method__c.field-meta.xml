@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DM_Application_Method__c</fullName>
+    <label>Application Method</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Foliar Spray</fullName>
+                <default>false</default>
+                <label>Foliar Spray</label>
+            </value>
+            <value>
+                <fullName>Drip Irrigation</fullName>
+                <default>false</default>
+                <label>Drip Irrigation</label>
+            </value>
+            <value>
+                <fullName>Broadcast</fullName>
+                <default>false</default>
+                <label>Broadcast</label>
+            </value>
+            <value>
+                <fullName>Soil Incorporation</fullName>
+                <default>false</default>
+                <label>Soil Incorporation</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

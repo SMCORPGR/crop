@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Direct_to_Market_Sales</fullName>
+    <columns>NAME</columns>
+    <columns>DM_Sale_Date__c</columns>
+    <columns>DM_Customer_Account__c</columns>
+    <columns>DM_Purchase_Order__c</columns>
+    <columns>DM_Sales_Channel__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>DM_Direct_to_Market__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>Direct to Market Sales</label>
+</ListView>

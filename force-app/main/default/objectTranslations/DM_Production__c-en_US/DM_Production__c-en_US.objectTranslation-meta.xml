@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Production</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Production</value>
+    </caseValues>
+    <layouts>
+        <layout>Planting &amp; Harvesting Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- New Harvest --></label>
+        <name>DM_New_Harvest</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- Record planting and harvest dates, yield, and sales --></description>
+        <label><!-- Cash Crops --></label>
+        <name>DM_Cash_Crops</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Record crop acreage and location --></description>
+        <label><!-- Cover Crops --></label>
+        <name>DM_Cover_Crops</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Record materials applied to a field (fertilizer, pesticide, compost) --></description>
+        <label><!-- Inputs --></label>
+        <name>DM_Inputs</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Record production activities supporting operations such as making compost, cleaning equipment, and packing. --></description>
+        <label><!-- On Premises Production --></label>
+        <name>DM_On_Premises_Production</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- A Field or a Production Site is required. --></errorMessage>
+        <name>Field_or_Production_Site</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Crop Stage is Production Complete and no further Harvest records can be created. --></errorMessage>
+        <name>Production_Complete_no_new_Harvest</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Total acres exceeds the size of the Parcel. --></errorMessage>
+        <name>Total_Acres_exceeds_the_size_of_Parcel</name>
+    </validationRules>
+</CustomObjectTranslation>

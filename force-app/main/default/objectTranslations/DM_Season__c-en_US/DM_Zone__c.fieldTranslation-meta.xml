@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Zone --></label>
+    <name>DM_Zone__c</name>
+    <picklistValues>
+        <masterLabel>In-Bed</masterLabel>
+        <translation><!-- In-Bed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Inter-row</masterLabel>
+        <translation><!-- Inter-row --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Perimeter</masterLabel>
+        <translation><!-- Perimeter --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pollinator</masterLabel>
+        <translation><!-- Pollinator --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Under Canopy/Vine</masterLabel>
+        <translation><!-- Under Canopy/Vine --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

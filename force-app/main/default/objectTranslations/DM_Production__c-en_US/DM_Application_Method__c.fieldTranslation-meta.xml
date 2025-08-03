@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Application Method --></label>
+    <name>DM_Application_Method__c</name>
+    <picklistValues>
+        <masterLabel>Broadcast</masterLabel>
+        <translation><!-- Broadcast --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Drip Irrigation</masterLabel>
+        <translation><!-- Drip Irrigation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Foliar Spray</masterLabel>
+        <translation><!-- Foliar Spray --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Soil Incorporation</masterLabel>
+        <translation><!-- Soil Incorporation --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

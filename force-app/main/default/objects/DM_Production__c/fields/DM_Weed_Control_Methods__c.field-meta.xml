@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DM_Weed_Control_Methods__c</fullName>
+    <label>Weed Control Methods</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Mulching</fullName>
+                <default>false</default>
+                <label>Mulching</label>
+            </value>
+            <value>
+                <fullName>Flame Weeding</fullName>
+                <default>false</default>
+                <label>Flame Weeding</label>
+            </value>
+            <value>
+                <fullName>Hand Weeding &amp; Hoeing</fullName>
+                <default>false</default>
+                <label>Hand Weeding &amp; Hoeing</label>
+            </value>
+            <value>
+                <fullName>Grazing Animals</fullName>
+                <default>false</default>
+                <label>Grazing Animals</label>
+            </value>
+            <value>
+                <fullName>Vinegar &amp; Natural Herbicides</fullName>
+                <default>false</default>
+                <label>Vinegar &amp; Natural Herbicides</label>
+            </value>
+            <value>
+                <fullName>Cover Cropping</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Cover Cropping</label>
+            </value>
+            <value>
+                <fullName>Crop Rotation</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Crop Rotation</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

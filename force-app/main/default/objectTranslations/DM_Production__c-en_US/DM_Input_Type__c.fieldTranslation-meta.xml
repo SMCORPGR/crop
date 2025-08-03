@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Input Type --></label>
+    <name>DM_Input_Type__c</name>
+    <picklistValues>
+        <masterLabel>Fertilizer</masterLabel>
+        <translation><!-- Fertilizer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Herbicide</masterLabel>
+        <translation><!-- Herbicide --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mulch</masterLabel>
+        <translation><!-- Mulch --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pesticide</masterLabel>
+        <translation><!-- Pesticide --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Soil Amendment</masterLabel>
+        <translation><!-- Soil Amendment --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

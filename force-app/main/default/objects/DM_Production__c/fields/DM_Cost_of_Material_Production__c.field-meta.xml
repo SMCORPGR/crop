@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DM_Cost_of_Material_Production__c</fullName>
+    <formula>if(NOT(ISNULL( DM_On_Premises_Production__c )), DM_Quantity_Planted__c * DM_On_Premises_Production__r.DM_Total_Unit_Cost_of_Production_Vendor__c,0 )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Cost of Material</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DM_Composting</fullName>
+    <fields>Name</fields>
+    <fields>DM_Parcel__c</fields>
+    <fields>DM_Active__c</fields>
+    <fields>RecordTypeId</fields>
+    <label>Composting</label>
+</CompactLayout>

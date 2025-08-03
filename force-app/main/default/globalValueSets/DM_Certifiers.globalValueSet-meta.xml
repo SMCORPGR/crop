@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Americert International</fullName>
+        <default>false</default>
+        <label>Americert International</label>
+    </customValue>
+    <customValue>
+        <fullName>Baystate Organic Certifiers</fullName>
+        <default>false</default>
+        <label>Baystate Organic Certifiers</label>
+    </customValue>
+    <customValue>
+        <fullName>CCOF Certification Services, LLC</fullName>
+        <default>false</default>
+        <label>CCOF Certification Services, LLC</label>
+    </customValue>
+    <customValue>
+        <fullName>Clemson University</fullName>
+        <default>false</default>
+        <label>Clemson University</label>
+    </customValue>
+    <customValue>
+        <fullName>Colorado Department of Agriculture</fullName>
+        <default>false</default>
+        <label>Colorado Department of Agriculture</label>
+    </customValue>
+    <customValue>
+        <fullName>Georgia Crop Improvement Association</fullName>
+        <default>false</default>
+        <label>Georgia Crop Improvement Association</label>
+    </customValue>
+    <customValue>
+        <fullName>Global Organic Alliance, Inc</fullName>
+        <default>false</default>
+        <label>Global Organic Alliance, Inc</label>
+    </customValue>
+    <customValue>
+        <fullName>Idaho State Department of Agriculture</fullName>
+        <default>false</default>
+        <label>Idaho State Department of Agriculture</label>
+    </customValue>
+    <customValue>
+        <fullName>Iowa Department of Agriculture and Land Stewardship</fullName>
+        <default>false</default>
+        <label>Iowa Department of Agriculture and Land Stewardship</label>
+    </customValue>
+    <customValue>
+        <fullName>Kentucky Department of Agriculture</fullName>
+        <default>false</default>
+        <label>Kentucky Department of Agriculture</label>
+    </customValue>
+    <customValue>
+        <fullName>Marin Organic Certified Agriculture</fullName>
+        <default>false</default>
+        <label>Marin Organic Certified Agriculture</label>
+    </customValue>
+    <customValue>
+        <fullName>Maryland Department of Agriculture</fullName>
+        <default>false</default>
+        <label>Maryland Department of Agriculture</label>
+    </customValue>
+    <customValue>
+        <fullName>Midwest Organic Services Association, Inc.</fullName>
+        <default>false</default>
+        <label>Midwest Organic Services Association, Inc.</label>
+    </customValue>
+    <customValue>
+        <fullName>Minnesota Crop Improvement Association</fullName>
+        <default>false</default>
+        <label>Minnesota Crop Improvement Association</label>
+    </customValue>
+    <customValue>
+        <fullName>MOFGA Certification Services, LLC - MCS</fullName>
+        <default>false</default>
+        <label>MOFGA Certification Services, LLC - MCS</label>
+    </customValue>
+    <customValue>
+        <fullName>Montana Department of Agriculture</fullName>
+        <default>false</default>
+        <label>Montana Department of Agriculture</label>
+    </customValue>
+    <customValue>
+        <fullName>Monterey County Certified Organics</fullName>
+        <default>false</default>
+        <label>Monterey County Certified Organics</label>
+    </customValue>
+    <customValue>
+        <fullName>Natural Food Certifiers</fullName>
+        <default>false</default>
+        <label>Natural Food Certifiers</label>
+    </customValue>
+    <customValue>
+        <fullName>Nature’s International Certification Services</fullName>
+        <default>false</default>
+        <label>Nature’s International Certification Services</label>
+    </customValue>
+    <customValue>
+        <fullName>NOFA-NY Certified Organic, LLC</fullName>
+        <default>false</default>
+        <label>NOFA-NY Certified Organic, LLC</label>
+    </customValue>
+    <customValue>
+        <fullName>Ohio Ecological Food and Farm Association</fullName>
+        <default>false</default>
+        <label>Ohio Ecological Food and Farm Association</label>
+    </customValue>
+    <customValue>
+        <fullName>Oklahoma Department of Agriculture, Food and Forestry</fullName>
+        <default>false</default>
+        <label>Oklahoma Department of Agriculture, Food and Forestry</label>
+    </customValue>
+    <customValue>
+        <fullName>OneCert, Inc.</fullName>
+        <default>false</default>
+        <label>OneCert, Inc.</label>
+    </customValue>
+    <customValue>
+        <fullName>OnMark Certification Services</fullName>
+        <default>false</default>
+        <label>OnMark Certification Services</label>
+    </customValue>
+    <customValue>
+        <fullName>Oregon Department of Agriculture</fullName>
+        <default>false</default>
+        <label>Oregon Department of Agriculture</label>
+    </customValue>
+    <customValue>
+        <fullName>Oregon Tilth Certified Organic</fullName>
+        <default>false</default>
+        <label>Oregon Tilth Certified Organic</label>
+    </customValue>
+    <customValue>
+        <fullName>Organic Certifiers, Inc.</fullName>
+        <default>false</default>
+        <label>Organic Certifiers, Inc.</label>
+    </customValue>
+    <customValue>
+        <fullName>Organic Crop Improvement Association</fullName>
+        <default>false</default>
+        <label>Organic Crop Improvement Association</label>
+    </customValue>
+    <customValue>
+        <fullName>Pennsylvania Certified Organic</fullName>
+        <default>false</default>
+        <label>Pennsylvania Certified Organic</label>
+    </customValue>
+    <customValue>
+        <fullName>Perry Johnson Registrars Food Safety, Inc.</fullName>
+        <default>false</default>
+        <label>Perry Johnson Registrars Food Safety, Inc.</label>
+    </customValue>
+    <customValue>
+        <fullName>Primus Auditing Operations</fullName>
+        <default>false</default>
+        <label>Primus Auditing Operations</label>
+    </customValue>
+    <customValue>
+        <fullName>Quality Assurance International</fullName>
+        <default>false</default>
+        <label>Quality Assurance International</label>
+    </customValue>
+    <customValue>
+        <fullName>Quality Certification Services</fullName>
+        <default>false</default>
+        <label>Quality Certification Services</label>
+    </customValue>
+    <customValue>
+        <fullName>SCS Global Services, Inc.</fullName>
+        <default>false</default>
+        <label>SCS Global Services, Inc.</label>
+    </customValue>
+    <customValue>
+        <fullName>Texas Department of Agriculture</fullName>
+        <default>false</default>
+        <label>Texas Department of Agriculture</label>
+    </customValue>
+    <customValue>
+        <fullName>Utah Department of Agriculture and Food</fullName>
+        <default>false</default>
+        <label>Utah Department of Agriculture and Food</label>
+    </customValue>
+    <customValue>
+        <fullName>Vermont Organic Farmers, LLC</fullName>
+        <default>false</default>
+        <label>Vermont Organic Farmers, LLC</label>
+    </customValue>
+    <customValue>
+        <fullName>Washington State Department of Agriculture</fullName>
+        <default>false</default>
+        <label>Washington State Department of Agriculture</label>
+    </customValue>
+    <customValue>
+        <fullName>Where Food Comes From Organic (formerly A Bee Organic)</fullName>
+        <default>false</default>
+        <label>Where Food Comes From Organic (formerly A Bee Organic)</label>
+    </customValue>
+    <customValue>
+        <fullName>Yolo County Department of Agriculture</fullName>
+        <default>false</default>
+        <label>Yolo County Department of Agriculture</label>
+    </customValue>
+    <description>US-based Certifiers</description>
+    <masterLabel>Certifiers</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

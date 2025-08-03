@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPromptTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <activeVersionIdentifier>FLr2Y9tAswOjsfnl6o6GSvg31fj2z9rh5u0rKsUCK3U=_9</activeVersionIdentifier>
+    <description>Template recommends a crop rotation plan for a given Field with cash and cover crops that will thrive and regenerate the soil.</description>
+    <developerName>DM_Crop_Rotation_Planner_v3</developerName>
+    <masterLabel>DM Crop Rotation Planner v5</masterLabel>
+    <templateVersions>
+        <content>You are an agronomist with expertise in organic farming. Recommend a combination of cash and cover crops for successful crop yields and soil regeneration. 
+Use the Name field as input to the DM_Field_Location flow to obtain the Field&apos;s GIS Coordinates. {!$Flow:digitalm__DM_Field_Location.Prompt}
+Always consider the field where the crops will be grown and its GIS location to ensure all crops in the plan are well suited for the field&apos;s climate.
+A crop rotation plan has a minimum of 4 years and a maximum of 10. Each year consists of four Seasons (Spring, Summer, Fall , Winter).
+Provide a Purpose for each cover crop recommended. 
+It is acceptable to recommend a field be left fallow for a season if no cover crop is needed.
+Do not make up new crops and do not recommend crops for a climate that will not grow successfully.
+Group the plan by year and then by Season.
+</content>
+        <inputs>
+            <apiName>Field</apiName>
+            <definition>SOBJECT://DM_Field__c</definition>
+            <masterLabel>Field</masterLabel>
+            <referenceName>Input:Field</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultBedrockAnthropicClaude4Sonnet</primaryModel>
+        <status>Published</status>
+        <templateDataProviders>
+            <definition>flow://DM_Field_Location</definition>
+            <parameters>
+                <definition>SOBJECT://DM_Field__c</definition>
+                <isRequired>true</isRequired>
+                <parameterName>Field</parameterName>
+                <valueExpression>{!$Input:Field}</valueExpression>
+            </parameters>
+            <referenceName>Flow:digitalm__DM_Field_Location</referenceName>
+        </templateDataProviders>
+        <versionIdentifier>FLr2Y9tAswOjsfnl6o6GSvg31fj2z9rh5u0rKsUCK3U=_1</versionIdentifier>
+    </templateVersions>
+    <templateVersions>
+        <content>You are an agronomist with expertise in organic farming. Recommend a combination of cash and cover crops for successful crop yields and soil regeneration. 
+Field&apos;s GIS Coordinates. {!$Flow:digitalm__DM_Field_Location.Prompt}
+Always consider the field where the crops will be grown and its GPS location to ensure all crops in the plan are well suited for the field&apos;s climate.
+A crop rotation plan has a minimum of 4 years and a maximum of 10. Each year consists of four Seasons (Spring, Summer, Fall , Winter).
+Provide a Purpose for each cover crop recommended. 
+Recommend Start and End Dates for each Season.
+It is acceptable to recommend a field be left fallow for a Season if no cover crop is needed.
+Do not make up new crops and do not recommend crops for a climate that will not grow successfully.
+Group the plan by year and a sub-group by Season.
+</content>
+        <inputs>
+            <apiName>Field</apiName>
+            <definition>SOBJECT://DM_Field__c</definition>
+            <masterLabel>Field</masterLabel>
+            <referenceName>Input:Field</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultBedrockAnthropicClaude4Sonnet</primaryModel>
+        <status>Published</status>
+        <templateDataProviders>
+            <definition>flow://DM_Field_Location</definition>
+            <parameters>
+                <definition>SOBJECT://DM_Field__c</definition>
+                <isRequired>true</isRequired>
+                <parameterName>Field</parameterName>
+                <valueExpression>{!$Input:Field}</valueExpression>
+            </parameters>
+            <referenceName>Flow:digitalm__DM_Field_Location</referenceName>
+        </templateDataProviders>
+        <versionIdentifier>FLr2Y9tAswOjsfnl6o6GSvg31fj2z9rh5u0rKsUCK3U=_2</versionIdentifier>
+    </templateVersions>
+    <templateVersions>
+        <content>You are an agronomist with expertise in organic farming. Recommend a combination of cash and cover crops for successful crop yields and soil regeneration. 
+Field&apos;s GIS Coordinates. {!$Flow:digitalm__DM_Field_Location.Prompt}
+Always consider the field where the crops will be grown and its GPS location to ensure all crops in the plan are well suited for the field&apos;s climate.
+A crop rotation plan has a minimum of 4 years and a maximum of 10. Each year consists of four Seasons (Spring, Summer, Fall , Winter).
+Provide a Purpose for each cover crop recommended. 
+Recommend a Start Date and and an End Date for each Season in the format mm/dd/yyyy.
+Use the first Season&apos;s Start Date and the last Season&apos;s End Date for the Start Date and End Date of the Crop Rotation Plan.
+It is acceptable to recommend a field be left fallow for a Season if no cover crop is needed.
+Do not make up new crops and do not recommend crops for a climate that will not grow successfully.
+Group the plan by year and a sub-group by Season.
+</content>
+        <inputs>
+            <apiName>Field</apiName>
+            <definition>SOBJECT://DM_Field__c</definition>
+            <masterLabel>Field</masterLabel>
+            <referenceName>Input:Field</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultBedrockAnthropicClaude4Sonnet</primaryModel>
+        <status>Published</status>
+        <templateDataProviders>
+            <definition>flow://DM_Field_Location</definition>
+            <parameters>
+                <definition>SOBJECT://DM_Field__c</definition>
+                <isRequired>true</isRequired>
+                <parameterName>Field</parameterName>
+                <valueExpression>{!$Input:Field}</valueExpression>
+            </parameters>
+            <referenceName>Flow:digitalm__DM_Field_Location</referenceName>
+        </templateDataProviders>
+        <versionIdentifier>FLr2Y9tAswOjsfnl6o6GSvg31fj2z9rh5u0rKsUCK3U=_3</versionIdentifier>
+    </templateVersions>
+    <templateVersions>
+        <content>You are an agronomist with expertise in organic farming. Recommend a combination of cash and cover crops for successful crop yields and soil regeneration. 
+Field&apos;s GIS Coordinates. {!$Flow:digitalm__DM_Field_Location.Prompt}
+Always consider the field where the crops will be grown and its GPS location to ensure all crops in the plan are well suited for the field&apos;s climate.
+A crop rotation plan has a minimum of 4 years and a maximum of 10. Each year consists of four Seasons (Spring, Summer, Fall , Winter).
+Provide a Purpose for each cover crop recommended. 
+Recommend a Start Date and and an End Date for each Season in the format mm/dd/yyyy.
+Use the first Season&apos;s Start Date and the last Season&apos;s End Date for the Start Date and End Date of the Crop Rotation Plan.
+It is acceptable to recommend a field be left fallow for a Season if no cover crop is needed.
+Do not make up new crops and do not recommend crops for a climate that will not grow successfully.
+Group the plan by year and a sub-group by Season.
+</content>
+        <inputs>
+            <apiName>Field</apiName>
+            <definition>SOBJECT://DM_Field__c</definition>
+            <masterLabel>Field</masterLabel>
+            <referenceName>Input:Field</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultVertexAIGemini25Flash001</primaryModel>
+        <status>Published</status>
+        <templateDataProviders>
+            <definition>flow://DM_Field_Location</definition>
+            <parameters>
+                <definition>SOBJECT://DM_Field__c</definition>
+                <isRequired>true</isRequired>
+                <parameterName>Field</parameterName>
+                <valueExpression>{!$Input:Field}</valueExpression>
+            </parameters>
+            <referenceName>Flow:digitalm__DM_Field_Location</referenceName>
+        </templateDataProviders>
+        <versionIdentifier>FLr2Y9tAswOjsfnl6o6GSvg31fj2z9rh5u0rKsUCK3U=_4</versionIdentifier>
+    </templateVersions>
+    <templateVersions>
+        <content>You are an agronomist with expertise in organic farming. Recommend a combination of cash and cover crops for successful crop yields and soil regeneration. 
+Field&apos;s GIS Coordinates. {!$Flow:digitalm__DM_Field_Location.Prompt}
+Always consider the field where the crops will be grown and its GPS location to ensure all crops in the plan are well suited for the field&apos;s climate.
+A crop rotation plan has a minimum of 4 years and a maximum of 10. Each year consists of four Seasons (Spring, Summer, Fall , Winter).
+Provide a Purpose for each cover crop recommended. 
+Recommend a Start Date and and an End Date for each Season in the format mm/dd/yyyy.
+Use the first Season&apos;s Start Date and the last Season&apos;s End Date for the Start Date and End Date of the Crop Rotation Plan.
+It is acceptable to recommend a field be left fallow for a Season if no cover crop is needed.
+Do not make up new crops and do not recommend crops for a climate that will not grow successfully.
+Group the plan by year and a sub-group by Season.
+Go create the recommendation.
+</content>
+        <inputs>
+            <apiName>Field</apiName>
+            <definition>SOBJECT://DM_Field__c</definition>
+            <masterLabel>Field</masterLabel>
+            <referenceName>Input:Field</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultOpenAIGPT4OmniMini</primaryModel>
+        <status>Published</status>
+        <templateDataProviders>
+            <definition>flow://DM_Field_Location</definition>
+            <parameters>
+                <definition>SOBJECT://DM_Field__c</definition>
+                <isRequired>true</isRequired>
+                <parameterName>Field</parameterName>
+                <valueExpression>{!$Input:Field}</valueExpression>
+            </parameters>
+            <referenceName>Flow:digitalm__DM_Field_Location</referenceName>
+        </templateDataProviders>
+        <versionIdentifier>FLr2Y9tAswOjsfnl6o6GSvg31fj2z9rh5u0rKsUCK3U=_5</versionIdentifier>
+    </templateVersions>
+    <templateVersions>
+        <content>You are an agronomist with expertise in organic farming. Recommend a combination of cash and cover crops for successful crop yields and soil regeneration. 
+
+Field&apos;s GIS Coordinates. {!$Flow:digitalm__DM_Field_Location.Prompt}
+Ask the user for the Start Date of the crop rotation plan. 
+Always consider the field where the crops will be grown and its GPS location to ensure all crops in the plan are well suited for the field&apos;s climate.
+A crop rotation plan has a minimum of 4 years and a maximum of 10. Each year consists of four Seasons (Spring, Summer, Fall , Winter).
+Provide a Purpose for each cover crop recommended. 
+Recommend a Start Date and and an End Date for each Season in the format mm/dd/yyyy.
+Use the first Season&apos;s Start Date and the last Season&apos;s End Date for the Start Date and End Date of the Crop Rotation Plan.
+Name each Season with the name of the Season (Spring, Summer, Fall, Winter) plus the year of the Start Date. For instance, Spring 2025.
+It is acceptable to recommend a field be left fallow for a Season if no cover crop is needed.
+Do not make up new crops and do not recommend crops for a climate that will not grow successfully.
+Group the plan by year and a sub-group by Season.
+Go create the recommendation.
+</content>
+        <inputs>
+            <apiName>Field</apiName>
+            <definition>SOBJECT://DM_Field__c</definition>
+            <masterLabel>Field</masterLabel>
+            <referenceName>Input:Field</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultOpenAIGPT4OmniMini</primaryModel>
+        <status>Published</status>
+        <templateDataProviders>
+            <definition>flow://DM_Field_Location</definition>
+            <parameters>
+                <definition>SOBJECT://DM_Field__c</definition>
+                <isRequired>true</isRequired>
+                <parameterName>Field</parameterName>
+                <valueExpression>{!$Input:Field}</valueExpression>
+            </parameters>
+            <referenceName>Flow:digitalm__DM_Field_Location</referenceName>
+        </templateDataProviders>
+        <versionIdentifier>FLr2Y9tAswOjsfnl6o6GSvg31fj2z9rh5u0rKsUCK3U=_6</versionIdentifier>
+    </templateVersions>
+    <templateVersions>
+        <content>You are an agronomist with expertise in organic farming. Recommend a combination of cash and cover crops for successful crop yields and soil regeneration. 
+
+Field&apos;s GIS Coordinates. {!$Flow:digitalm__DM_Field_Location.Prompt}
+Always consider the field where the crops will be grown and its GPS location to ensure all crops in the plan are well suited for the field&apos;s climate.
+A crop rotation plan has a minimum of 4 years and a maximum of 10. Each year consists of four Seasons (Spring, Summer, Fall , Winter).
+Provide a Purpose for each cover crop recommended. 
+Recommend a Start Date and and an End Date for each Season in the format mm/dd/yyyy.
+Use the first Season&apos;s Start Date and the last Season&apos;s End Date for the Start Date and End Date of the Crop Rotation Plan.
+Name each Season with the name of the Season (Spring, Summer, Fall, Winter) plus the year of the Season&apos;s Start Date. For instance, Spring 2025.
+It is acceptable to recommend a field be left fallow for a Season if no cover crop is needed.
+Do not make up new crops and do not recommend crops for a climate that will not grow successfully.
+Group the plan by year and a sub-group by Season.
+Go create the recommendation.
+</content>
+        <inputs>
+            <apiName>Field</apiName>
+            <definition>SOBJECT://DM_Field__c</definition>
+            <masterLabel>Field</masterLabel>
+            <referenceName>Input:Field</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultOpenAIGPT4OmniMini</primaryModel>
+        <status>Draft</status>
+        <templateDataProviders>
+            <definition>flow://DM_Field_Location</definition>
+            <parameters>
+                <definition>SOBJECT://DM_Field__c</definition>
+                <isRequired>true</isRequired>
+                <parameterName>Field</parameterName>
+                <valueExpression>{!$Input:Field}</valueExpression>
+            </parameters>
+            <referenceName>Flow:digitalm__DM_Field_Location</referenceName>
+        </templateDataProviders>
+        <versionIdentifier>FLr2Y9tAswOjsfnl6o6GSvg31fj2z9rh5u0rKsUCK3U=_7</versionIdentifier>
+    </templateVersions>
+    <templateVersions>
+        <content>You are an agronomist with expertise in organic farming. Recommend a combination of cash and cover crops for successful crop yields and soil regeneration. 
+Field&apos;s GIS Coordinates. {!$Flow:digitalm__DM_Field_Location.Prompt}
+
+Always assess the field where the crops will be grown and its GPS location to ensure all crops in the plan are well suited for the field&apos;s climate.
+
+A crop rotation plan has a minimum of 4 years and a maximum of 10. Each year consists of four Seasons (Spring, Summer, Fall , Winter).
+
+Always limit the recommendation to the number of years requested by the user.
+
+Always include the primary cash crop or crops request by the user. 
+
+Provide a Purpose for each cover crop recommended. 
+
+Recommend Start and End Dates for each Season in the format mm/dd/yyyy.
+
+It is acceptable to recommend a field be left fallow for a Season if no cover crop is needed.
+
+Do not make up new crops and do not recommend crops for a climate that will not grow successfully.
+
+Group the plan by year and a sub-group by Season.
+</content>
+        <inputs>
+            <apiName>Field</apiName>
+            <definition>SOBJECT://DM_Field__c</definition>
+            <masterLabel>Field</masterLabel>
+            <referenceName>Input:Field</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultOpenAIGPT4OmniMini</primaryModel>
+        <status>Draft</status>
+        <templateDataProviders>
+            <definition>flow://DM_Field_Location</definition>
+            <parameters>
+                <definition>SOBJECT://DM_Field__c</definition>
+                <isRequired>true</isRequired>
+                <parameterName>Field</parameterName>
+                <valueExpression>{!$Input:Field}</valueExpression>
+            </parameters>
+            <referenceName>Flow:digitalm__DM_Field_Location</referenceName>
+        </templateDataProviders>
+        <versionIdentifier>FLr2Y9tAswOjsfnl6o6GSvg31fj2z9rh5u0rKsUCK3U=_8</versionIdentifier>
+    </templateVersions>
+    <templateVersions>
+        <content>You are an agronomist with expertise in organic farming. Recommend a combination of cash and cover crops for successful crop yields and soil regeneration. 
+Field&apos;s GIS Coordinates. {!$Flow:digitalm__DM_Field_Location.Prompt}
+
+Always assess the field where the crops will be grown and its GPS location to ensure all crops in the plan are well suited for the field&apos;s climate.
+
+A crop rotation plan has a minimum of 4 years and a maximum of 10. Each year consists of four Seasons (Spring, Summer, Fall , Winter).
+
+Always limit the recommendation to the number of years requested by the user.
+
+Always include the primary cash crop or crops request by the user. 
+
+Provide a Purpose for each cover crop recommended. 
+
+Recommend Start and End Dates for each Season in the format mm/dd/yyyy.
+
+It is acceptable to recommend a field be left fallow for a Season if no cover crop is needed.
+
+Do not make up new crops and do not recommend crops for a climate that will not grow successfully.
+
+Group the plan by year and a sub-group by Season.
+</content>
+        <inputs>
+            <apiName>Field</apiName>
+            <definition>SOBJECT://DM_Field__c</definition>
+            <masterLabel>Field</masterLabel>
+            <referenceName>Input:Field</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultOpenAIGPT4OmniMini</primaryModel>
+        <status>Published</status>
+        <templateDataProviders>
+            <definition>flow://DM_Field_Location</definition>
+            <parameters>
+                <definition>SOBJECT://DM_Field__c</definition>
+                <isRequired>true</isRequired>
+                <parameterName>Field</parameterName>
+                <valueExpression>{!$Input:Field}</valueExpression>
+            </parameters>
+            <referenceName>Flow:digitalm__DM_Field_Location</referenceName>
+        </templateDataProviders>
+        <versionIdentifier>FLr2Y9tAswOjsfnl6o6GSvg31fj2z9rh5u0rKsUCK3U=_9</versionIdentifier>
+    </templateVersions>
+    <type>einstein_gpt__flex</type>
+    <visibility>Global</visibility>
+</GenAiPromptTemplate>

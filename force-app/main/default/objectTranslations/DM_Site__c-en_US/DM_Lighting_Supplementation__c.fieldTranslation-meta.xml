@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Lighting Supplementation --></label>
+    <name>DM_Lighting_Supplementation__c</name>
+    <picklistValues>
+        <masterLabel>Fluorescent</masterLabel>
+        <translation><!-- Fluorescent --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HID</masterLabel>
+        <translation><!-- HID --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LED</masterLabel>
+        <translation><!-- LED --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>None</masterLabel>
+        <translation><!-- None --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

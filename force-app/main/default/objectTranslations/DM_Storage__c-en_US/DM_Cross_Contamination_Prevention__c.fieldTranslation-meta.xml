@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Cross-Contamination Prevention Measures --></label>
+    <name>DM_Cross_Contamination_Prevention__c</name>
+    <picklistValues>
+        <masterLabel>Buffer Zones</masterLabel>
+        <translation><!-- Buffer Zones --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cleaning Procedures</masterLabel>
+        <translation><!-- Cleaning Procedures --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dedicated Equipment for Organic</masterLabel>
+        <translation><!-- Dedicated Equipment for Organic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dedicated Storage Bins</masterLabel>
+        <translation><!-- Dedicated Storage Bins --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Employee Training</masterLabel>
+        <translation><!-- Employee Training --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pest Control with Organic-Compliant Methods</masterLabel>
+        <translation><!-- Pest Control with Organic-Compliant Methods --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Physical Barriers</masterLabel>
+        <translation><!-- Physical Barriers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Residue Testing &amp; Monitoring</masterLabel>
+        <translation><!-- Residue Testing &amp; Monitoring --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sealed &amp; Traceable Packaging</masterLabel>
+        <translation><!-- Sealed &amp; Traceable Packaging --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Transportation &amp; Handling Segregation</masterLabel>
+        <translation><!-- Transportation &amp; Handling Segregation --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Irrigation Method --></label>
+    <name>DM_Irrigation_Method__c</name>
+    <picklistValues>
+        <masterLabel>Basin</masterLabel>
+        <translation><!-- Basin --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Center Pivot</masterLabel>
+        <translation><!-- Center Pivot --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Drip</masterLabel>
+        <translation><!-- Drip --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Flood</masterLabel>
+        <translation><!-- Flood --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Furrow</masterLabel>
+        <translation><!-- Furrow --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hydroponic</masterLabel>
+        <translation><!-- Hydroponic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rain Water Harvesting</masterLabel>
+        <translation><!-- Rain Water Harvesting --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sprinkler</masterLabel>
+        <translation><!-- Sprinkler --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Subsurface Drip</masterLabel>
+        <translation><!-- Subsurface Drip --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

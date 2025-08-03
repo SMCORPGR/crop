@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Propagation Method --></label>
+    <name>DM_Propagation_Method__c</name>
+    <picklistValues>
+        <masterLabel>Bulbs / Tubers</masterLabel>
+        <translation><!-- Bulbs / Tubers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cuttings</masterLabel>
+        <translation><!-- Cuttings --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Division</masterLabel>
+        <translation><!-- Division --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Grafting</masterLabel>
+        <translation><!-- Grafting --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Layering</masterLabel>
+        <translation><!-- Layering --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Seed - Transplant</masterLabel>
+        <translation><!-- Seed - Transplant --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

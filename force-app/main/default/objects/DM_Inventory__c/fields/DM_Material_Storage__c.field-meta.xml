@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DM_Material_Storage__c</fullName>
+    <externalId>false</externalId>
+    <formula>if( RecordType.Name = &quot;Harvest&quot;,
+DM_Production__r.Name + &quot;: &quot; + DM_Material__r.Name   + &quot; (&quot; +   DM_Storage_Location__r.Name + &quot;)&quot;,
+DM_Material__r.Name   + &quot; (&quot; +   DM_Storage_Location__r.Name + &quot;)&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Material + Storage</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

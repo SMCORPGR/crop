@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DM_Intended_Use__c</fullName>
+    <label>Intended Use</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Direct to Market</fullName>
+                <default>true</default>
+                <label>Direct to Market</label>
+            </value>
+            <value>
+                <fullName>Future Sale from Inventory</fullName>
+                <default>false</default>
+                <label>Future Sale from Inventory</label>
+            </value>
+            <value>
+                <fullName>Seed Propagation</fullName>
+                <default>false</default>
+                <label>Seed Propagation</label>
+            </value>
+            <value>
+                <fullName>Transplanting</fullName>
+                <default>false</default>
+                <label>Transplanting</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

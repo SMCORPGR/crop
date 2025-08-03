@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Production_Complete_no_new_Harvest</fullName>
+    <active>true</active>
+    <description>Crop Stage is Production Complete therefore, no additional Harvest records can be created.</description>
+    <errorConditionFormula>ISPICKVAL( DM_Crop_Stage__c , &quot;Production Complete&quot;) &amp;&amp;
+ISCHANGED( DM_Harvest_Count__c )</errorConditionFormula>
+    <errorMessage>Crop Stage is Production Complete and no further Harvest records can be created.</errorMessage>
+</ValidationRule>

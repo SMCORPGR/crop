@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Production Activity --></label>
+    <name>DM_Production_Activity__c</name>
+    <picklistValues>
+        <masterLabel>Buffer Zone Maintenance</masterLabel>
+        <translation><!-- Buffer Zone Maintenance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Compost Curing</masterLabel>
+        <translation><!-- Compost Curing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Compost Production</masterLabel>
+        <translation><!-- Compost Production --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cover Crop Termination</masterLabel>
+        <translation><!-- Cover Crop Termination --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Equipment Cleaning</masterLabel>
+        <translation><!-- Equipment Cleaning --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Irrigation Flushing</masterLabel>
+        <translation><!-- Irrigation Flushing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Irrigation Inspection</masterLabel>
+        <translation><!-- Irrigation Inspection --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Packing / Processing</masterLabel>
+        <translation><!-- Packing / Processing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Raised Bed Formation</masterLabel>
+        <translation><!-- Raised Bed Formation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Soil Testing</masterLabel>
+        <translation><!-- Soil Testing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Thinning / Pruning</masterLabel>
+        <translation><!-- Thinning / Pruning --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tillage</masterLabel>
+        <translation><!-- Tillage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trellising / Staking</masterLabel>
+        <translation><!-- Trellising / Staking --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Water Quality Testing</masterLabel>
+        <translation><!-- Water Quality Testing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Weeding</masterLabel>
+        <translation><!-- Weeding --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

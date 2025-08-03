@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Seed / Planting Stock Type --></label>
+    <name>DM_Seed_Type__c</name>
+    <picklistValues>
+        <masterLabel>GMO</masterLabel>
+        <translation><!-- GMO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Heirloom</masterLabel>
+        <translation><!-- Heirloom --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hybrid (Non-GMO)</masterLabel>
+        <translation><!-- Hybrid (Non-GMO) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Non-GMO Verified</masterLabel>
+        <translation><!-- Non-GMO Verified --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Non-Organic, Treated</masterLabel>
+        <translation><!-- Non-Organic, Treated --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Non-Organic, Untreated</masterLabel>
+        <translation><!-- Non-Organic, Untreated --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Transitional Organic</masterLabel>
+        <translation><!-- Transitional Organic --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

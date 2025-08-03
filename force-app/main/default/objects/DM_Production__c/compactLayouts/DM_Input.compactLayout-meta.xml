@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DM_Input</fullName>
+    <fields>DM_Description__c</fields>
+    <fields>DM_Application_Date__c</fields>
+    <fields>DM_Input_Type__c</fields>
+    <fields>DM_Field__c</fields>
+    <fields>DM_Production_Site__c</fields>
+    <label>Input</label>
+</CompactLayout>

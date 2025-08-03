@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Production Site</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Production Sites</value>
+    </caseValues>
+    <recordTypes>
+        <description><!-- Production site for curing and storing compost until mature enough for application. --></description>
+        <label><!-- Compost Curing Pad --></label>
+        <name>DM_Compost_Curing_Pad</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- On-farm composting production sites. --></description>
+        <label><!-- Active Composting Bin --></label>
+        <name>DM_Composting</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Areas where tools and machinery are cleaned or maintained. --></description>
+        <label><!-- Equipment Cleaning / Maintenance --></label>
+        <name>DM_Equipment_Cleaning_Maintenance</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Controlled environments for seedling starts, year-around crops, or speciality crops. --></description>
+        <label><!-- Greenhouse --></label>
+        <name>DM_Greenhouse</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Wells, ponds, irrigation lines, and systems used to water crops. --></description>
+        <label><!-- Irrigation Systems --></label>
+        <name>DM_Irrigation_Systems</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Areas where plants are propagated before transplanting to fields. --></description>
+        <label><!-- Nursery --></label>
+        <name>DM_Nursery</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Area where crops are washed, trimmed, packed or minimally processed before sale. --></description>
+        <label><!-- Packing / Processing --></label>
+        <name>DM_Packing_Processing</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

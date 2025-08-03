@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>64.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <assignments>
+        <description>Add GPS Coordinates to the prompt instructions.</description>
+        <name>Send_to_Prompt_Template</name>
+        <elementSubtype>AddPromptInstructions</elementSubtype>
+        <label>Send to Prompt Template</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <assignmentItems>
+            <assignToReference>$Output.Prompt</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <stringValue>(GPS Coordinates:{!Loop_Fields.DM_GIS_Coordinates__Latitude__s},{!Loop_Fields.DM_GIS_Coordinates__Longitude__s})
+</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Loop_Fields</targetReference>
+        </connector>
+    </assignments>
+    <collectionProcessors>
+        <name>Select_Field</name>
+        <elementSubtype>FilterCollectionProcessor</elementSubtype>
+        <label>Select Field</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <assignNextValueToReference>currentItem_Select_Field</assignNextValueToReference>
+        <collectionProcessorType>FilterCollectionProcessor</collectionProcessorType>
+        <collectionReference>Get_Field_Record</collectionReference>
+        <conditionLogic>and</conditionLogic>
+        <conditions>
+            <leftValueReference>currentItem_Select_Field.Name</leftValueReference>
+            <operator>EqualTo</operator>
+            <rightValue>
+                <elementReference>Field.Name</elementReference>
+            </rightValue>
+        </conditions>
+        <connector>
+            <targetReference>Loop_Fields</targetReference>
+        </connector>
+    </collectionProcessors>
+    <description>Flow to get Field GPS Coordinates for a Prompt Template.</description>
+    <environments>Default</environments>
+    <interviewLabel>DM Field Location {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>DM Field Location</label>
+    <loops>
+        <name>Loop_Fields</name>
+        <label>Loop Fields</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <collectionReference>Select_Field</collectionReference>
+        <iterationOrder>Asc</iterationOrder>
+        <nextValueConnector>
+            <targetReference>Send_to_Prompt_Template</targetReference>
+        </nextValueConnector>
+    </loops>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>PromptFlow</processType>
+    <recordLookups>
+        <description>Gets the Field__c record associated with the Crop Rotation Plan.</description>
+        <name>Get_Field_Record</name>
+        <label>Get Field Record</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Select_Field</targetReference>
+        </connector>
+        <getFirstRecordOnly>false</getFirstRecordOnly>
+        <object>DM_Field__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <start>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Get_Field_Record</targetReference>
+        </connector>
+        <triggerType>Capability</triggerType>
+    </start>
+    <status>Active</status>
+    <variables>
+        <name>currentItem_Select_Field</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <objectType>DM_Field__c</objectType>
+    </variables>
+    <variables>
+        <name>Field</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+        <objectType>DM_Field__c</objectType>
+    </variables>
+</Flow>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DM_Seed_Material</fullName>
+    <fields>Name</fields>
+    <fields>DM_Manufacturer__c</fields>
+    <fields>DM_Batch_Lot_Number__c</fields>
+    <fields>DM_Purchase_Date__c</fields>
+    <fields>DM_Quantity__c</fields>
+    <fields>RecordTypeId</fields>
+    <label>Seed &amp; Material</label>
+</CompactLayout>

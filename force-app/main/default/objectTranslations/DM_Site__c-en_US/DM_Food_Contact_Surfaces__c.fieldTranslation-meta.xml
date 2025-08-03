@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- What surfaces are used or material types used at the site? --></help>
+    <label><!-- Food Contact Surfaces --></label>
+    <name>DM_Food_Contact_Surfaces__c</name>
+</CustomFieldTranslation>

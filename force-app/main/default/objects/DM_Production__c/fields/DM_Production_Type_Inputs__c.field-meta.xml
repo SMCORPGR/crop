@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DM_Production_Type_Inputs__c</fullName>
+    <label>Production Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Field</fullName>
+                <default>false</default>
+                <label>Applied to a field</label>
+            </value>
+            <value>
+                <fullName>Production Site</fullName>
+                <default>false</default>
+                <label>Applied to a nursery or greenhouse</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

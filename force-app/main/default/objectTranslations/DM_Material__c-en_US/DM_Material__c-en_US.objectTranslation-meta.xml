@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Material</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Materials</value>
+    </caseValues>
+    <layouts>
+        <layout>Seed and Materials Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- New Activity --></label>
+        <name>DM_New_Activity</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Update Material --></label>
+        <name>DM_Update_Seed</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- Materials used as inputs (fertilizer, pesticides) for crop management. --></description>
+        <label><!-- Inputs --></label>
+        <name>DM_Inputs</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Seeds or planting stock used to plant crops. --></description>
+        <label><!-- Seed &amp; Planting Stock --></label>
+        <name>DM_Seed_Planting_Stock</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

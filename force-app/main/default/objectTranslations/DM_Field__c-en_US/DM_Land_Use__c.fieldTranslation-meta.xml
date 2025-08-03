@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Land Use --></label>
+    <name>DM_Land_Use__c</name>
+    <picklistValues>
+        <masterLabel>Certified Organic</masterLabel>
+        <translation><!-- Certified Organic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Conventional</masterLabel>
+        <translation><!-- Conventional --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Transitional</masterLabel>
+        <translation><!-- Transitional --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

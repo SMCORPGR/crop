@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Sales Channel --></label>
+    <name>DM_Sales_Channel__c</name>
+    <picklistValues>
+        <masterLabel>CSA</masterLabel>
+        <translation><!-- CSA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Direct to Consumer</masterLabel>
+        <translation><!-- Direct to Consumer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Distributor</masterLabel>
+        <translation><!-- Distributor --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Farmers Market</masterLabel>
+        <translation><!-- Farmers Market --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

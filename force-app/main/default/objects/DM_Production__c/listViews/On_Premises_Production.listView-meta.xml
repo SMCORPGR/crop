@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>On_Premises_Production</fullName>
+    <columns>NAME</columns>
+    <columns>DM_Description__c</columns>
+    <columns>DM_Production_Date__c</columns>
+    <columns>DM_Production_Activity__c</columns>
+    <columns>DM_Field__c</columns>
+    <columns>DM_Production_Site__c</columns>
+    <columns>DM_Production_Status__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>DM_Production__c.DM_On_Premises_Production</value>
+    </filters>
+    <label>On Premises Production</label>
+</ListView>

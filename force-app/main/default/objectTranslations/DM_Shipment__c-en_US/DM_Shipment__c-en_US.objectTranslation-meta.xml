@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Shipment</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Shipments</value>
+    </caseValues>
+    <recordTypes>
+        <description><!-- Shipments for Materials received into Inventory --></description>
+        <label><!-- Shipment Received --></label>
+        <name>DM_Shipment_Received</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

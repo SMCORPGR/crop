@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Cleaning Method --></label>
+    <name>DM_Cleaning_Method__c</name>
+    <picklistValues>
+        <masterLabel>Air Blast</masterLabel>
+        <translation><!-- Air Blast --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Flushing</masterLabel>
+        <translation><!-- Flushing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Manual Scrubbing</masterLabel>
+        <translation><!-- Manual Scrubbing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pressure Wash</masterLabel>
+        <translation><!-- Pressure Wash --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sanitizing</masterLabel>
+        <translation><!-- Sanitizing --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

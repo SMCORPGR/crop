@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DM_Cross_Contamination_Prevention__c</fullName>
+    <label>Cross-Contamination Prevention Measures</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Physical Barriers</fullName>
+                <default>false</default>
+                <label>Physical Barriers</label>
+            </value>
+            <value>
+                <fullName>Cleaning Procedures</fullName>
+                <default>false</default>
+                <label>Cleaning Procedures</label>
+            </value>
+            <value>
+                <fullName>Dedicated Storage Bins</fullName>
+                <default>false</default>
+                <label>Dedicated Storage Bins</label>
+            </value>
+            <value>
+                <fullName>Dedicated Equipment for Organic</fullName>
+                <default>false</default>
+                <label>Dedicated Equipment for Organic</label>
+            </value>
+            <value>
+                <fullName>Buffer Zones</fullName>
+                <default>false</default>
+                <label>Buffer Zones</label>
+            </value>
+            <value>
+                <fullName>Residue Testing &amp; Monitoring</fullName>
+                <default>false</default>
+                <label>Residue Testing &amp; Monitoring</label>
+            </value>
+            <value>
+                <fullName>Employee Training</fullName>
+                <default>false</default>
+                <label>Employee Training</label>
+            </value>
+            <value>
+                <fullName>Pest Control with Organic-Compliant Methods</fullName>
+                <default>false</default>
+                <label>Pest Control with Organic-Compliant Methods</label>
+            </value>
+            <value>
+                <fullName>Sealed &amp; Traceable Packaging</fullName>
+                <default>false</default>
+                <label>Sealed &amp; Traceable Packaging</label>
+            </value>
+            <value>
+                <fullName>Transportation &amp; Handling Segregation</fullName>
+                <default>false</default>
+                <label>Transportation &amp; Handling Segregation</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>6</visibleLines>
+</CustomField>

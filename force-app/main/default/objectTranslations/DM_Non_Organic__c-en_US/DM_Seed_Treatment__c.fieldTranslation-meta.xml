@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Seed Treatment --></label>
+    <name>DM_Seed_Treatment__c</name>
+    <picklistValues>
+        <masterLabel>Biological Fungicide Treatment</masterLabel>
+        <translation><!-- Biological Fungicide Treatment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Coated Seeds</masterLabel>
+        <translation><!-- Coated Seeds --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fungicide-Treated (Synthetic)</masterLabel>
+        <translation><!-- Fungicide-Treated (Synthetic) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hormone or Growth Regulator Treated</masterLabel>
+        <translation><!-- Hormone or Growth Regulator Treated --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hot Water Treatment</masterLabel>
+        <translation><!-- Hot Water Treatment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Inoculated</masterLabel>
+        <translation><!-- Inoculated --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Insecticide-Treated (Synthetic)</masterLabel>
+        <translation><!-- Insecticide-Treated (Synthetic) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pelleted Seeds</masterLabel>
+        <translation><!-- Pelleted Seeds --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Primed Seeds</masterLabel>
+        <translation><!-- Primed Seeds --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

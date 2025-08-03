@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Production Site --></label>
+    <name>DM_Production_Site__c</name>
+    <relationshipLabel><!-- Production --></relationshipLabel>
+</CustomFieldTranslation>

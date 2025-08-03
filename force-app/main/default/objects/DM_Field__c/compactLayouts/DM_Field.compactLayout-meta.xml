@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DM_Field</fullName>
+    <fields>Name</fields>
+    <fields>DM_Parcel__c</fields>
+    <fields>DM_Land_Use__c</fields>
+    <fields>DM_Certification_Date__c</fields>
+    <fields>DM_Last_Inspection_Date__c</fields>
+    <label>Field</label>
+</CompactLayout>

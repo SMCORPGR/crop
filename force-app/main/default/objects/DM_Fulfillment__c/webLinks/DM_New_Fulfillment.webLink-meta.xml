@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DM_New_Fulfillment</fullName>
+    <availability>online</availability>
+    <displayType>massActionButton</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>New</masterLabel>
+    <openType>sidebar</openType>
+    <protected>false</protected>
+    <requireRowSelection>true</requireRowSelection>
+    <url>/lightning/action/quick/digitalm__DM_Sale__c.digitalm__DM_New_Fulfillment?objectApiName&amp;context=RECORD_DETAIL&amp;recordId={!CASESAFEID(DM_Sale__c.Id)}&amp;backgroundContext=%2Flightning%2Fr%2F2Fdigitalm__DM_Sale__c%2F{!CASESAFEID(DM_Sale__c.Id)}%2Fview</url>
+</WebLink>

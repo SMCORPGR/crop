@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DM_Crop_Variety__c</fullName>
+    <externalId>false</externalId>
+    <formula>if( DM_Sale_Line_Item__r.DM_Sale__r.DM_Direct_to_Market__c = true, DM_Harvest__r.DM_Crop_Variety__c ,
+DM_Inventory__r.DM_Crop_Variety__c)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Crop Variety</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

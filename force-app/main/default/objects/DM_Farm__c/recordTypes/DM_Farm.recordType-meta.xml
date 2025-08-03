@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DM_Farm</fullName>
+    <active>true</active>
+    <description>Default record type for a Farm record.</description>
+    <label>Farm</label>
+</RecordType>

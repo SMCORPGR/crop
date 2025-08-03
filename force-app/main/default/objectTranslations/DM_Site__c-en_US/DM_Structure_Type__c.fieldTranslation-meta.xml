@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Structure Type --></label>
+    <name>DM_Structure_Type__c</name>
+    <picklistValues>
+        <masterLabel>Glass</masterLabel>
+        <translation><!-- Glass --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>High Tunnel</masterLabel>
+        <translation><!-- High Tunnel --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Plastic</masterLabel>
+        <translation><!-- Plastic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Shade House</masterLabel>
+        <translation><!-- Shade House --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

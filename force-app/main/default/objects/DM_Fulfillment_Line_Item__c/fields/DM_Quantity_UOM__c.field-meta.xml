@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DM_Quantity_UOM__c</fullName>
+    <externalId>false</externalId>
+    <formula>if( DM_Sale_Line_Item__r.DM_Sale__r.DM_Direct_to_Market__c = true,  text(DM_Harvest__r.DM_Harvest_UOM__c ),
+DM_Inventory__r.DM_Sale_UOM__c)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Quantity UOM</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

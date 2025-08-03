@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Weed Control Methods --></label>
+    <name>DM_Weed_Control_Methods__c</name>
+    <picklistValues>
+        <masterLabel>Flame Weeding</masterLabel>
+        <translation><!-- Flame Weeding --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Grazing Animals</masterLabel>
+        <translation><!-- Grazing Animals --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hand Weeding &amp; Hoeing</masterLabel>
+        <translation><!-- Hand Weeding &amp; Hoeing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mulching</masterLabel>
+        <translation><!-- Mulching --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vinegar &amp; Natural Herbicides</masterLabel>
+        <translation><!-- Vinegar &amp; Natural Herbicides --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

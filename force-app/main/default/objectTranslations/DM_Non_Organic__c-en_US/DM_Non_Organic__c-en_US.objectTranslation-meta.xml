@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Non-Organic Approval</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Non-Organic Approvals</value>
+    </caseValues>
+    <layouts>
+        <layout>Non Organic</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <description><!-- Approval to use non-organic seed or planting stock. --></description>
+        <label><!-- Non-Organic Seed/Planting Stock (Part B) --></label>
+        <name>DM_Non_Organic_Seed_Planting_Stock_Part_B</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Approval to use seed treatments, coatings and inoculants. --></description>
+        <label><!-- Seed Treatments (Part C) --></label>
+        <name>DM_Seed_Treatments</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

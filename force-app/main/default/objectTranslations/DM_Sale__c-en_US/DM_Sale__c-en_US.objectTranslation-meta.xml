@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Sale</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Sales</value>
+    </caseValues>
+    <layouts>
+        <layout>Sale Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- New Fulfillment --></label>
+        <name>DM_New_Fulfillment</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Update Sale --></label>
+        <name>DM_Update_Sale</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- Sale --></label>
+        <name>DM_Sale</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

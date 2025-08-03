@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DM_Description__c</fullName>
+    <externalId>false</externalId>
+    <formula>if( (RecordType.Name = &quot;Cash Crops&quot; || RecordType.Name = &quot;Cover Crops&quot;) &amp;&amp; ISPICKVAL( DM_Production_Type__c, &quot;Field&quot;),  DM_Crop_Variety__c + &quot; - &quot; +  DM_Field__r.Name, 
+if( (RecordType.Name = &quot;Cash Crops&quot; || RecordType.Name = &quot;Cover Crops&quot;) &amp;&amp; ISPICKVAL( DM_Production_Type__c, &quot;Production Site&quot;),  DM_Crop_Variety__c + &quot; - &quot; + DM_Production_Site__r.Name, 
+if( RecordType.Name = &quot;Inputs&quot; &amp;&amp; ISPICKVAL( DM_Production_Type_Inputs__c, &quot;Field&quot;) &amp;&amp; ispickval( DM_Material_Source__c, &quot;Inventory&quot;) , DM_Input__r.Name  + &quot; - &quot; +  DM_Field__r.Name, 
+if( RecordType.Name = &quot;Inputs&quot; &amp;&amp; ISPICKVAL( DM_Production_Type_Inputs__c, &quot;Field&quot;) &amp;&amp; ispickval( DM_Material_Source__c, &quot;Production Site&quot;) ,  DM_On_Premises_Production__r.Name   + &quot; - &quot; +  DM_Field__r.Name, 
+if( RecordType.Name = &quot;Inputs&quot; &amp;&amp; ISPICKVAL( DM_Production_Type_Inputs__c, &quot;Production Site&quot;) &amp;&amp; ispickval( DM_Material_Source__c, &quot;Inventory&quot;), DM_Input__r.Name  + &quot; - &quot; +  DM_Production_Site__r.Name, 
+if( RecordType.Name = &quot;Inputs&quot; &amp;&amp; ISPICKVAL( DM_Production_Type_Inputs__c, &quot;Production Site&quot;) &amp;&amp; ispickval( DM_Material_Source__c, &quot;Production Site&quot;) , DM_On_Premises_Production__r.Name + &quot; - &quot; +  DM_Production_Site__r.Name, 
+if( RecordType.Name = &quot;On Premises Production&quot; &amp;&amp;  DM_Production_Site__r.RecordType.Name = &quot;Active Composting Bin&quot;,   Name + &quot; - &quot; + text(DM_Composting_Method__c)  + &quot; - &quot; +  DM_Production_Site__r.Name, 
+if( RecordType.Name = &quot;On Premises Production&quot; &amp;&amp;  DM_Production_Site__r.RecordType.Name = &quot;Compost Curing Pad&quot;,  Name + &quot; - &quot; + text(DM_Composting_Method__c)  + &quot; - &quot; +  DM_Production_Site__r.Name, 
+if( RecordType.Name = &quot;On Premises Production&quot; &amp;&amp;  DM_Production_Site__r.RecordType.Name = &quot;Equipment Cleaning / Maintenance&quot;, DM_Equipment__c  + &quot; - &quot; +  DM_Production_Site__r.Name, 
+if( RecordType.Name = &quot;On Premises Production&quot; &amp;&amp;  DM_Production_Site__r.RecordType.Name = &quot;Irrigation Systems&quot;,  DM_Inspection_Test_Performed__c + &quot; - &quot; +  DM_Production_Site__r.Name, 
+if( RecordType.Name = &quot;On Premises Production&quot; &amp;&amp;  DM_Production_Site__r.RecordType.Name = &quot;Packing / Processing&quot;, DM_Harvest__r.Name + &quot; - &quot; +  DM_Production_Site__r.Name,
+if( RecordType.Name = &quot;On Premises Production&quot; &amp;&amp;  not(isblank(DM_Field__c)),  DM_Field__r.Name + &quot; - &quot; + text(DM_Production_Activity__c) ,
+&quot;ABC&quot;))))))))))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Description</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

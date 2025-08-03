@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Water Source --></label>
+    <name>DM_Water_Source__c</name>
+    <picklistValues>
+        <masterLabel>Municipal</masterLabel>
+        <translation><!-- Municipal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>River</masterLabel>
+        <translation><!-- River --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Well</masterLabel>
+        <translation><!-- Well --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

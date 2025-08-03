@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Prompt xmlns="http://soap.sforce.com/2006/04/metadata">
+    <masterLabel>New Parcel</masterLabel>
+    <promptVersions>
+        <body>&lt;p&gt;Enter the name of your &lt;strong&gt;Parcel&lt;/strong&gt; and its associated &lt;strong&gt;Farm&lt;/strong&gt;.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Enter the &lt;strong&gt;Street Address&lt;/strong&gt; of the Parcel; however, if it does not have an address, enter the &lt;strong&gt;GIS Coordinates&lt;/strong&gt; for its location. &lt;/p&gt;</body>
+        <customApplication>DM_Digital_Melon</customApplication>
+        <delayDays>1</delayDays>
+        <description>Prompt for entering a New Parcel record.</description>
+        <dismissButtonLabel>Dismiss</dismissButtonLabel>
+        <displayPosition>BottomRight</displayPosition>
+        <displayType>FloatingPanel</displayType>
+        <experience>Lightning</experience>
+        <isPublished>true</isPublished>
+        <masterLabel>New Parcel</masterLabel>
+        <publishedDate>2025-07-22</publishedDate>
+        <shouldDisplayActionButton>false</shouldDisplayActionButton>
+        <shouldIgnoreGlobalDelay>true</shouldIgnoreGlobalDelay>
+        <startDate>2025-07-22</startDate>
+        <targetPageKey1>DM_Parcel1__c</targetPageKey1>
+        <targetPageKey2>new</targetPageKey2>
+        <targetPageKey3>{&quot;navigationLocation&quot;:&quot;LIST_VIEW&quot;,&quot;nooverride&quot;:&quot;1&quot;,&quot;useRecordTypeCheck&quot;:&quot;1&quot;,&quot;onRecordTypeSelection&quot;:false}</targetPageKey3>
+        <targetPageType>standard__objectPage</targetPageType>
+        <timesToDisplay>1</timesToDisplay>
+        <title>New Parcel</title>
+        <userAccess>Everyone</userAccess>
+        <userProfileAccess>Everyone</userProfileAccess>
+        <versionNumber>1</versionNumber>
+    </promptVersions>
+</Prompt>

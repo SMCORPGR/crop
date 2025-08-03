@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DM_Used_for_On_Farm_Transplants__c</fullName>
+    <defaultValue>false</defaultValue>
+    <label>Used for On-Farm Transplants</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

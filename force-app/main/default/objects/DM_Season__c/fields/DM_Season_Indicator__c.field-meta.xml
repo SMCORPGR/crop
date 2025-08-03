@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DM_Season_Indicator__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(TEXT( DM_Season__c  ),
+&quot;Spring&quot;, IMAGE(&quot;/resource/digitalm__DM_flower&quot;,&quot;Flower&quot;),
+&quot;Summer&quot;, IMAGE(&quot;/resource/digitalm__DM_sun&quot;,&quot;Sun&quot;),
+&quot;Fall&quot;, IMAGE(&quot;/resource/digitalm__DM_leaves&quot;,&quot;Leaves&quot;),
+&quot;Winter&quot;, IMAGE(&quot;/resource/digitalm__DM_snowflake&quot;,&quot;Snowflake&quot;),
+&quot;Not Found&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Season</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

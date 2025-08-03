@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Seed / Planting Stock --></label>
+    <name>DM_Material__c</name>
+    <relationshipLabel><!-- Production (Seed / Planting Stock) --></relationshipLabel>
+</CustomFieldTranslation>

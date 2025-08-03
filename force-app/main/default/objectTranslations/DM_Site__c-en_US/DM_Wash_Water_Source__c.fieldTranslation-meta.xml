@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Wash Water Source --></label>
+    <name>DM_Wash_Water_Source__c</name>
+    <picklistValues>
+        <masterLabel>Creek / River</masterLabel>
+        <translation><!-- Creek / River --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Municipal</masterLabel>
+        <translation><!-- Municipal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pond</masterLabel>
+        <translation><!-- Pond --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rainwater</masterLabel>
+        <translation><!-- Rainwater --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Well</masterLabel>
+        <translation><!-- Well --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DM_Growing_Medium__c</fullName>
+    <label>Growing Medium</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Potting Soil</fullName>
+                <default>false</default>
+                <label>Potting Soil</label>
+            </value>
+            <value>
+                <fullName>Peat Moss Mix</fullName>
+                <default>false</default>
+                <label>Peat Moss Mix</label>
+            </value>
+            <value>
+                <fullName>Coconut Coir</fullName>
+                <default>false</default>
+                <label>Coconut Coir</label>
+            </value>
+            <value>
+                <fullName>Perlite &amp; Vermiculite Blend</fullName>
+                <default>false</default>
+                <label>Perlite &amp; Vermiculite Blend</label>
+            </value>
+            <value>
+                <fullName>Compost-Based Mix</fullName>
+                <default>false</default>
+                <label>Compost-Based Mix</label>
+            </value>
+            <value>
+                <fullName>Rockwool</fullName>
+                <default>false</default>
+                <label>Rockwool</label>
+            </value>
+            <value>
+                <fullName>Custom Farm Blend</fullName>
+                <default>false</default>
+                <label>Custom Farm Blend</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

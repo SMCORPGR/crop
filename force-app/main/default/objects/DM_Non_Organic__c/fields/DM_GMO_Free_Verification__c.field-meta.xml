@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DM_GMO_Free_Verification__c</fullName>
+    <defaultValue>false</defaultValue>
+    <inlineHelpText>Indicates if the supplier has verified the seed is non-GMO.</inlineHelpText>
+    <label>GMO-Free Verification</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

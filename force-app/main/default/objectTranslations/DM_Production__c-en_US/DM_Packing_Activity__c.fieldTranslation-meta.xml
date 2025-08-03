@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Packing / Processing Activity --></label>
+    <name>DM_Packing_Activity__c</name>
+    <picklistValues>
+        <masterLabel>Bagging</masterLabel>
+        <translation><!-- Bagging --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Boxing</masterLabel>
+        <translation><!-- Boxing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Processing</masterLabel>
+        <translation><!-- Processing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trimming</masterLabel>
+        <translation><!-- Trimming --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Washing</masterLabel>
+        <translation><!-- Washing --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

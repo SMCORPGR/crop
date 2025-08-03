@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Field_or_Production_Site</fullName>
+    <active>true</active>
+    <description>A Field or Production Site must be selected.</description>
+    <errorConditionFormula>ISNULL( DM_Field__r.Id) &amp;&amp;
+ ISNULL( DM_Production_Site__r.Id )</errorConditionFormula>
+    <errorMessage>A Field or a Production Site is required.</errorMessage>
+</ValidationRule>

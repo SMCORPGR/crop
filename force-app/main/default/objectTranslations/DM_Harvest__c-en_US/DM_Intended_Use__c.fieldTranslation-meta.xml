@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Intended Use --></label>
+    <name>DM_Intended_Use__c</name>
+    <picklistValues>
+        <masterLabel>Direct to Market</masterLabel>
+        <translation><!-- Direct to Market --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Future Sale from Inventory</masterLabel>
+        <translation><!-- Future Sale from Inventory --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Seed Propagation</masterLabel>
+        <translation><!-- Seed Propagation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Transplanting</masterLabel>
+        <translation><!-- Transplanting --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

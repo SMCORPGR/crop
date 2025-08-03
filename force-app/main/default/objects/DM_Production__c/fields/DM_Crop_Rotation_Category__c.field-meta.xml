@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DM_Crop_Rotation_Category__c</fullName>
+    <label>Crop Rotation Category</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Brassicas</fullName>
+                <default>false</default>
+                <label>Brassicas</label>
+            </value>
+            <value>
+                <fullName>Grains</fullName>
+                <default>false</default>
+                <label>Grains</label>
+            </value>
+            <value>
+                <fullName>Legumes</fullName>
+                <default>false</default>
+                <label>Legumes</label>
+            </value>
+            <value>
+                <fullName>Leafy Greens</fullName>
+                <default>false</default>
+                <label>Leafy Greens</label>
+            </value>
+            <value>
+                <fullName>Nightshades</fullName>
+                <default>false</default>
+                <label>Nightshades</label>
+            </value>
+            <value>
+                <fullName>Root Crops</fullName>
+                <default>false</default>
+                <label>Root Crops</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

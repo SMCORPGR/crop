@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DM_Seed_Planting_Stock</fullName>
+    <active>true</active>
+    <description>Seeds or planting stock used to plant crops.</description>
+    <label>Seed &amp; Planting Stock</label>
+    <picklistValues>
+        <picklist>DM_Crop_Rotation_Category__c</picklist>
+        <values>
+            <fullName>Brassicas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grains</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Leafy Greens</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Legumes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nightshades</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Root Crops</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DM_Organic_Status_Verification__c</picklist>
+        <values>
+            <fullName>Certifier Review %26 Approval</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NOP Seal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OMRI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WSDA</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DM_Quantity_Unit_of_Measure__c</picklist>
+        <values>
+            <fullName>Bushels</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Count</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gallons</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kilograms</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Liters</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pounds</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Tons</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DM_Status__c</picklist>
+        <values>
+            <fullName>Canceled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Draft</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Ordered</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partially Received</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Received</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DM_Type__c</picklist>
+        <values>
+            <fullName>Cash Crops</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Cover Crops</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

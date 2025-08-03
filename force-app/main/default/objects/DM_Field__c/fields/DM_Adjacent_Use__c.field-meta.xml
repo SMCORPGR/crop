@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DM_Adjacent_Use__c</fullName>
+    <label>Adjacent Use</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Conventional Crops</fullName>
+                <default>false</default>
+                <label>Conventional Crops</label>
+            </value>
+            <value>
+                <fullName>Road</fullName>
+                <default>false</default>
+                <label>Road</label>
+            </value>
+            <value>
+                <fullName>Fence line</fullName>
+                <default>false</default>
+                <label>Fence line</label>
+            </value>
+            <value>
+                <fullName>Unknown</fullName>
+                <default>false</default>
+                <label>Unknown</label>
+            </value>
+            <value>
+                <fullName>Irrigation Ditch</fullName>
+                <default>false</default>
+                <label>Irrigation Ditch</label>
+            </value>
+            <value>
+                <fullName>Livestock</fullName>
+                <default>false</default>
+                <label>Livestock</label>
+            </value>
+            <value>
+                <fullName>Fallow</fullName>
+                <default>false</default>
+                <label>Fallow</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

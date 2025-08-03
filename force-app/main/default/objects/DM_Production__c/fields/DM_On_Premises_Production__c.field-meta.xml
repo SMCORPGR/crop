@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DM_On_Premises_Production__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <inlineHelpText>Seeds, Transplants, or Inputs produced on the farm&apos;s premises.</inlineHelpText>
+    <label>On Premises Production</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>DM_Production__c.DM_Production_Site__r.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Greenhouse, Nursery, Compost Curing Pad, Active Composting Bin</value>
+        </filterItems>
+        <filterItems>
+            <field>DM_Production__c.DM_Production_Site__r.DM_Active__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>DM_Production__c</referenceTo>
+    <relationshipLabel>Production (Related Production)</relationshipLabel>
+    <relationshipName>Production1</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

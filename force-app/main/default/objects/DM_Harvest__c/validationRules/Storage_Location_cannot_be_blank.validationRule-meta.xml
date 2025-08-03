@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Storage_Location_cannot_be_blank</fullName>
+    <active>false</active>
+    <description>Storage Location cannot be blank if Intended Use is Future Sale</description>
+    <errorConditionFormula>ISPICKVAL( DM_Intended_Use__c  , &quot;Future Sale from Inventory&quot;)</errorConditionFormula>
+    <errorDisplayField>DM_Storage_Location__c</errorDisplayField>
+    <errorMessage>Storage Location is required if Intended Use is Future Sale from Inventory.</errorMessage>
+</ValidationRule>

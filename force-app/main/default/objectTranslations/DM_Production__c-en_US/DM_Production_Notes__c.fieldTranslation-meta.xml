@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Record notes about planting methods, irrigation, pest control, weeding or any other topic related to this planting. --></help>
+    <label><!-- Production Notes --></label>
+    <name>DM_Production_Notes__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DM_Seed_Treatment__c</fullName>
+    <label>Seed Treatment</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Pelleted Seeds</fullName>
+                <default>false</default>
+                <label>Pelleted Seeds</label>
+            </value>
+            <value>
+                <fullName>Inoculated</fullName>
+                <default>false</default>
+                <label>Inoculated</label>
+            </value>
+            <value>
+                <fullName>Biological Fungicide Treatment</fullName>
+                <default>false</default>
+                <label>Biological Fungicide Treatment</label>
+            </value>
+            <value>
+                <fullName>Hot Water Treatment</fullName>
+                <default>false</default>
+                <label>Hot Water Treatment</label>
+            </value>
+            <value>
+                <fullName>Primed Seeds</fullName>
+                <default>false</default>
+                <label>Primed Seeds</label>
+            </value>
+            <value>
+                <fullName>Coated Seeds</fullName>
+                <default>false</default>
+                <label>Coated Seeds</label>
+            </value>
+            <value>
+                <fullName>Fungicide-Treated (Synthetic)</fullName>
+                <default>false</default>
+                <label>Fungicide-Treated (Synthetic)</label>
+            </value>
+            <value>
+                <fullName>Insecticide-Treated (Synthetic)</fullName>
+                <default>false</default>
+                <label>Insecticide-Treated (Synthetic)</label>
+            </value>
+            <value>
+                <fullName>Hormone or Growth Regulator Treated</fullName>
+                <default>false</default>
+                <label>Hormone or Growth Regulator Treated</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

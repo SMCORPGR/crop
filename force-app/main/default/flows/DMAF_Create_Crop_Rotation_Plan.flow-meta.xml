@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>64.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <description>Create a Crop Rotation Plan for a Field.</description>
+    <environments>Default</environments>
+    <interviewLabel>Create Crop Rotation Plan {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Create Crop Rotation Plan</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordCreates>
+        <description>Create a Crop Rotation Plan record including its Name, Start Date, End Date, parent Field, and Status.</description>
+        <name>Create_Crop_Rotation_Plan</name>
+        <label>Create Crop Rotation Plan</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <assignRecordIdToReference>varRotationPlanId</assignRecordIdToReference>
+        <connector>
+            <targetReference>Create_Season_Records</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>DM_End_Date__c</field>
+            <value>
+                <elementReference>varEndDate</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>DM_Field__c</field>
+            <value>
+                <elementReference>Get_Field_Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>DM_Start_Date__c</field>
+            <value>
+                <elementReference>varStartDate</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>DM_Status__c</field>
+            <value>
+                <elementReference>varStatus</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Name</field>
+            <value>
+                <elementReference>varRotationPlanName</elementReference>
+            </value>
+        </inputAssignments>
+        <object>DM_Rotation_Plan__c</object>
+    </recordCreates>
+    <recordCreates>
+        <name>Create_Season_Records</name>
+        <label>Create Season Records</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <inputReference>listSeasons</inputReference>
+    </recordCreates>
+    <recordLookups>
+        <name>Get_Field_Record</name>
+        <label>Get Field Record</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Create_Crop_Rotation_Plan</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Name</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>varField</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>DM_Field__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <start>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Get_Field_Record</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+    <variables>
+        <description>The collection of Seasons for each year in the Crop Rotation Plan.</description>
+        <name>listSeasons</name>
+        <dataType>SObject</dataType>
+        <isCollection>true</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+        <objectType>DM_Season__c</objectType>
+    </variables>
+    <variables>
+        <description>The End Date of the Rotation Plan.</description>
+        <name>varEndDate</name>
+        <dataType>Date</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <description>The id of the Field record that is the parent of the Rotation Plan record.</description>
+        <name>varField</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <description>The id of the Rotation Plan record that was created.</description>
+        <name>varRotationPlanId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+    <variables>
+        <description>The Name of the Rotation Plan record.</description>
+        <name>varRotationPlanName</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+    <variables>
+        <description>The Start Date of the Rotation Plan.</description>
+        <name>varStartDate</name>
+        <dataType>Date</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <description>The current Status of the Rotation Plan.</description>
+        <name>varStatus</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

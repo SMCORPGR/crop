@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Used as a nursery also --></help>
+    <label><!-- Used for Propagation --></label>
+    <name>DM_Used_for_Propagation__c</name>
+</CustomFieldTranslation>

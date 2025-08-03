@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DM_Vendor</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>DM_Vendor</compactLayoutAssignment>
+    <description>Businesses that sell goods and services to Farms.</description>
+    <label>Vendor</label>
+    <picklistValues>
+        <picklist>AccountSource</picklist>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phone Inquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Purchased List</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DM_Business_Type__c</picklist>
+        <values>
+            <fullName>Cooperative</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Online</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wholesale</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DM_Certifying_Agency__c</picklist>
+        <values>
+            <fullName>Americert International</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Baystate Organic Certifiers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CCOF Certification Services%2C LLC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Clemson University</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Colorado Department of Agriculture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Georgia Crop Improvement Association</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Global Organic Alliance%2C Inc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Idaho State Department of Agriculture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Iowa Department of Agriculture and Land Stewardship</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kentucky Department of Agriculture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MOFGA Certification Services%2C LLC - MCS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marin Organic Certified Agriculture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maryland Department of Agriculture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Midwest Organic Services Association%2C Inc%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Minnesota Crop Improvement Association</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Montana Department of Agriculture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Monterey County Certified Organics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NOFA-NY Certified Organic%2C LLC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Natural Food Certifiers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nature%E2%80%99s International Certification Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ohio Ecological Food and Farm Association</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oklahoma Department of Agriculture%2C Food and Forestry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OnMark Certification Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OneCert%2C Inc%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oregon Department of Agriculture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oregon Tilth Certified Organic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Organic Certifiers%2C Inc%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Organic Crop Improvement Association</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pennsylvania Certified Organic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Perry Johnson Registrars Food Safety%2C Inc%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Primus Auditing Operations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quality Assurance International</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quality Certification Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SCS Global Services%2C Inc%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Texas Department of Agriculture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Utah Department of Agriculture and Food</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vermont Organic Farmers%2C LLC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Washington State Department of Agriculture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Where Food Comes From Organic %28formerly A Bee Organic%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yolo County Department of Agriculture</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Industry</picklist>
+        <values>
+            <fullName>Agriculture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Apparel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Biotechnology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chemicals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Communications</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Construction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consulting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Education</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Electronics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Energy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Engineering</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Entertainment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Environmental</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Food %26 Beverage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Government</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Healthcare</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hospitality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Insurance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Machinery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manufacturing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not For Profit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recreation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shipping</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Technology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telecommunications</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transportation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Utilities</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Ownership</picklist>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Private</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Subsidiary</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Rating</picklist>
+        <values>
+            <fullName>Cold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warm</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Certifier</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Farm Owner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Input Supplier</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Labor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seed %2F Planting Stock Supplier</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transportation</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

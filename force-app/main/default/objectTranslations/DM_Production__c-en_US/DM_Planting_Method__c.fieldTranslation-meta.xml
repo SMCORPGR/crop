@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Planting Method --></label>
+    <name>DM_Planting_Method__c</name>
+    <picklistValues>
+        <masterLabel>Broadcast Seeding</masterLabel>
+        <translation><!-- Broadcast Seeding --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Direct Seeding</masterLabel>
+        <translation><!-- Direct Seeding --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Drill Seeding</masterLabel>
+        <translation><!-- Drill Seeding --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hydroponic</masterLabel>
+        <translation><!-- Hydroponic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Intercropping</masterLabel>
+        <translation><!-- Intercropping --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mulch Planting</masterLabel>
+        <translation><!-- Mulch Planting --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No-Till Planting</masterLabel>
+        <translation><!-- No-Till Planting --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Raised Bed Planting</masterLabel>
+        <translation><!-- Raised Bed Planting --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Transplanting</masterLabel>
+        <translation><!-- Transplanting --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

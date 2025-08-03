@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DM_Seed_Treatments</fullName>
+    <active>true</active>
+    <description>Approval to use seed treatments, coatings and inoculants.</description>
+    <label>Seed Treatments (Part C)</label>
+    <picklistValues>
+        <picklist>DM_Approval_Status__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Denied</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Review</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Yet Submitted</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DM_Justification_for_Non_Organic_Use__c</picklist>
+        <values>
+            <fullName>Germination or Quality Issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Insufficient Supply</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Late-Season Emergency</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Commercially Available</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Organic Equivalent Not Suitable for Certified System</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Region-Specific Adaptation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Specific Variety Not Available</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DM_Justification_for_Treated_Seed_Use__c</picklist>
+        <values>
+            <fullName>Disease Prevention</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Environmental Adaptation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Late-Season Emergency</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low Germination in Untreated Seed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Organic Alternative Available</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pest Resistance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required by Buyer or Contract</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Specialized Crop Variety Not Available as Organic</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DM_Seed_Treatment__c</picklist>
+        <values>
+            <fullName>Biological Fungicide Treatment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Coated Seeds</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fungicide-Treated %28Synthetic%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hormone or Growth Regulator Treated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hot Water Treatment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inoculated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Insecticide-Treated %28Synthetic%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pelleted Seeds</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Primed Seeds</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DM_Seed_Type__c</picklist>
+        <values>
+            <fullName>GMO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Heirloom</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hybrid %28Non-GMO%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-GMO Verified</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-Organic%2C Treated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-Organic%2C Untreated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transitional Organic</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DM_Treatment_Status_Verification__c</picklist>
+        <values>
+            <fullName>Certifier Review %26 Approval</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NOP Seal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OMRI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WSDA</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

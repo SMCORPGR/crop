@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Growing Medium --></label>
+    <name>DM_Growing_Medium__c</name>
+    <picklistValues>
+        <masterLabel>Coconut Coir</masterLabel>
+        <translation><!-- Coconut Coir --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Compost-Based Mix</masterLabel>
+        <translation><!-- Compost-Based Mix --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Custom Farm Blend</masterLabel>
+        <translation><!-- Custom Farm Blend --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Peat Moss Mix</masterLabel>
+        <translation><!-- Peat Moss Mix --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Perlite &amp; Vermiculite Blend</masterLabel>
+        <translation><!-- Perlite &amp; Vermiculite Blend --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Potting Soil</masterLabel>
+        <translation><!-- Potting Soil --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rockwool</masterLabel>
+        <translation><!-- Rockwool --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

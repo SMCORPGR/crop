@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Organic Status Verification --></label>
+    <name>DM_Organic_Status_Verification__c</name>
+    <picklistValues>
+        <masterLabel>Certifier Review &amp; Approval</masterLabel>
+        <translation><!-- Certifier Review &amp; Approval --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NOP Seal</masterLabel>
+        <translation><!-- NOP Seal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not Approved</masterLabel>
+        <translation><!-- Not Approved --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OMRI</masterLabel>
+        <translation><!-- OMRI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>WSDA</masterLabel>
+        <translation><!-- WSDA --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

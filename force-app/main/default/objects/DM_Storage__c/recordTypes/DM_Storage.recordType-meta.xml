@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DM_Storage</fullName>
+    <active>true</active>
+    <description>Default record type for storage locations.</description>
+    <label>Storage</label>
+    <picklistValues>
+        <picklist>DM_Cross_Contamination_Prevention__c</picklist>
+        <values>
+            <fullName>Buffer Zones</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cleaning Procedures</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dedicated Equipment for Organic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dedicated Storage Bins</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Employee Training</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pest Control with Organic-Compliant Methods</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Physical Barriers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Residue Testing %26 Monitoring</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sealed %26 Traceable Packaging</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transportation %26 Handling Segregation</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DM_Storage_Type__c</picklist>
+        <values>
+            <fullName>Cold Storage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dry Storage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Root Cellar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Silo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warehouse</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

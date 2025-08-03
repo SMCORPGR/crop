@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DM_Backflow_Prevention_Type__c</fullName>
+    <label>Backflow Prevention Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Atmospheric Vacuum Breaker (AVB)</fullName>
+                <default>false</default>
+                <label>Atmospheric Vacuum Breaker (AVB)</label>
+            </value>
+            <value>
+                <fullName>Pressure Vacuum Breaker (PVB)</fullName>
+                <default>false</default>
+                <label>Pressure Vacuum Breaker (PVB)</label>
+            </value>
+            <value>
+                <fullName>Double Check Valve Assembly (DCVA)</fullName>
+                <default>false</default>
+                <label>Double Check Valve Assembly (DCVA)</label>
+            </value>
+            <value>
+                <fullName>Reduced Pressure Zone (RPZ)</fullName>
+                <default>false</default>
+                <label>Reduced Pressure Zone (RPZ)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

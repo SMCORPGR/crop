@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Disposition Method --></label>
+    <name>DM_Disposition_Method__c</name>
+    <picklistValues>
+        <masterLabel>Grazing</masterLabel>
+        <translation><!-- Grazing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green Manure</masterLabel>
+        <translation><!-- Green Manure --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mulch</masterLabel>
+        <translation><!-- Mulch --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No-Till</masterLabel>
+        <translation><!-- No-Till --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Seed Propagation</masterLabel>
+        <translation><!-- Seed Propagation --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

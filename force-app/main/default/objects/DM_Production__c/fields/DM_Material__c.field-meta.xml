@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DM_Material__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Seed / Planting Stock</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>DM_Material__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Seed &amp; Planting Stock</value>
+        </filterItems>
+        <filterItems>
+            <field>DM_Material__c.DM_Remaining_Inventory__c</field>
+            <operation>greaterThan</operation>
+            <value>0</value>
+        </filterItems>
+        <isOptional>true</isOptional>
+    </lookupFilter>
+    <referenceTo>DM_Material__c</referenceTo>
+    <relationshipLabel>Production (Seed / Planting Stock)</relationshipLabel>
+    <relationshipName>Planting_Harvesting</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

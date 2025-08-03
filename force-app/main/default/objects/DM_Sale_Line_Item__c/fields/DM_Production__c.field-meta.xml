@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DM_Production__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <label>Production #</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>DM_Production__c.RecordType.Name</field>
+            <operation>equals</operation>
+            <value>Cash Crops</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>DM_Production__c</referenceTo>
+    <relationshipLabel>Sale Line Items</relationshipLabel>
+    <relationshipName>Sale_Line_Items</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

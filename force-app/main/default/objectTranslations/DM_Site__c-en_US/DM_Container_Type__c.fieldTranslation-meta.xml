@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Container Type --></label>
+    <name>DM_Container_Type__c</name>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pots</masterLabel>
+        <translation><!-- Pots --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Soil Blocks</masterLabel>
+        <translation><!-- Soil Blocks --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trays</masterLabel>
+        <translation><!-- Trays --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Seed / Planting Stock Supplier</fullName>
+        <default>false</default>
+        <label>Seed / Planting Stock Supplier</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Input Supplier</fullName>
+        <default>false</default>
+        <label>Input Supplier</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Transportation</fullName>
+        <default>false</default>
+        <label>Transportation</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Labor</fullName>
+        <default>false</default>
+        <label>Labor</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Certifier</fullName>
+        <default>false</default>
+        <label>Certifier</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Farm Owner</fullName>
+        <default>false</default>
+        <label>Farm Owner</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Farmers Market</fullName>
+        <default>false</default>
+        <label>Farmers Market</label>
+    </standardValue>
+    <standardValue>
+        <fullName>CSA</fullName>
+        <default>false</default>
+        <label>CSA</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Direct to Consumer</fullName>
+        <default>false</default>
+        <label>Direct to Consumer</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Distributor</fullName>
+        <default>false</default>
+        <label>Distributor</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </standardValue>
+</StandardValueSet>

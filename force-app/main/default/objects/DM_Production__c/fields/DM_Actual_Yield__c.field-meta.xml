@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DM_Actual_Yield__c</fullName>
+    <label>Actual Yield</label>
+    <summarizedField>DM_Harvest__c.DM_Harvest_Quantity__c</summarizedField>
+    <summaryForeignKey>DM_Harvest__c.DM_Production__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

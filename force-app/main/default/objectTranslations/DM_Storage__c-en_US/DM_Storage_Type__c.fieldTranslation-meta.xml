@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Storage Type --></label>
+    <name>DM_Storage_Type__c</name>
+    <picklistValues>
+        <masterLabel>Cold Storage</masterLabel>
+        <translation><!-- Cold Storage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dry Storage</masterLabel>
+        <translation><!-- Dry Storage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Root Cellar</masterLabel>
+        <translation><!-- Root Cellar --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Silo</masterLabel>
+        <translation><!-- Silo --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Warehouse</masterLabel>
+        <translation><!-- Warehouse --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

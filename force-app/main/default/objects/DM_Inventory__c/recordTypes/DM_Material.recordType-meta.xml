@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DM_Material</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>DM_Material_Inventory</compactLayoutAssignment>
+    <description>Materials (seed, planting stock) that are planted in a field or production facility.</description>
+    <label>Material</label>
+</RecordType>

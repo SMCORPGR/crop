@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DM_Yield</fullName>
+    <active>true</active>
+    <label>Yield</label>
+    <picklistValues>
+        <picklist>DM_Disposition_Status__c</picklist>
+        <values>
+            <fullName>Compost</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Donated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Livestock Feed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plowed Under</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Processed On-Farm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Waste Disposal</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DM_Harvest_UOM__c</picklist>
+        <values>
+            <fullName>Bushels</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Count</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kilograms</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pounds</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Tons</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DM_Intended_Use__c</picklist>
+        <values>
+            <fullName>Direct to Market</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Future Sale from Inventory</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Seed Propagation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transplanting</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DM_Sales_Channel__c</picklist>
+        <values>
+            <fullName>CSA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Direct to Consumer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Distributor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Farmers Market</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Line_Item</fullName>
+    <active>true</active>
+    <label>Line Item</label>
+    <picklistValues>
+        <picklist>DM_Quantity_UOM_Production__c</picklist>
+        <values>
+            <fullName>Bushels</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Count</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kilograms</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pounds</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+</RecordType>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Buffer_Zones</fullName>
+    <columns>NAME</columns>
+    <columns>DM_Field_Number__c</columns>
+    <columns>DM_Certification_Expiration_Date__c</columns>
+    <columns>DM_Active__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>DM_Field__c.DM_Buffer_Zone</value>
+    </filters>
+    <label>Buffer Zones</label>
+</ListView>

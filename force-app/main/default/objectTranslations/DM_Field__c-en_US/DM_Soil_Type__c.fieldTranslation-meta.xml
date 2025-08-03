@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Soil Type --></label>
+    <name>DM_Soil_Type__c</name>
+    <picklistValues>
+        <masterLabel>Clay</masterLabel>
+        <translation><!-- Clay --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Loamy</masterLabel>
+        <translation><!-- Loamy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sandy</masterLabel>
+        <translation><!-- Sandy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Silty</masterLabel>
+        <translation><!-- Silty --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

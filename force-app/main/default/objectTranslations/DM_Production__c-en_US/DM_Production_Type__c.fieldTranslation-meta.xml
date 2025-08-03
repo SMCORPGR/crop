@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Production Type --></label>
+    <name>DM_Production_Type__c</name>
+    <picklistValues>
+        <masterLabel>Planted in a field</masterLabel>
+        <translation><!-- Planted in a field --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Planted in a nursery or greenhouse</masterLabel>
+        <translation><!-- Planted in a nursery or greenhouse --></translation>
+    </picklistValues>
+</CustomFieldTranslation>
